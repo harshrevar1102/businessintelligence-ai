@@ -6,6 +6,10 @@ one place to look. Nothing here talks to a database or an LLM directly.
 """
 
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file if present
+load_dotenv()
 
 CITIES = ["Ahmedabad", "Jaipur", "Delhi", "Mumbai", "Bengaluru", "Hyderabad"]
 
@@ -55,7 +59,10 @@ CONFIDENCE_THRESHOLDS = {
 }
 
 # --- LLM (OpenAI) configuration ---------------------------------------
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "sk-K5DbTWvG3dj3rV2gGFUDCRtjNgahg0n46CRmlyQuwlcT0ypJAg8pmGMl0GQX6Pus")
+# API key must be set in .env file or environment variables
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    print("WARNING: OPENAI_API_KEY not found in environment variables. LLM features will be disabled.")
 OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", None)
 OPENAI_CHAT_MODEL = os.environ.get("OPENAI_CHAT_MODEL", "gpt-4o-mini")
 OPENAI_EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")

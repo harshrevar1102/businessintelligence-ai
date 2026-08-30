@@ -5,8 +5,13 @@ get a single-store staffing instruction.
 """
 
 DECISION_RIGHTS = {
-    "CEO / Executive": ["Promotion", "Pricing", "Peak-hour staffing", "Supplier expediting"],
-    "Regional Manager": ["Peak-hour staffing", "Supplier expediting", "Promotion"],
+    "CEO / Executive": [
+        "Campaign reactivation",     # Promotion Ended driver
+        "Promotional pricing",        # Pricing / Product Mix driver
+        "Peak-hour staffing",         # Wait Time / Staffing driver
+        "Supplier expediting"         # Inventory Stockout driver
+    ],
+    "Regional Manager": ["Peak-hour staffing", "Supplier expediting", "Campaign reactivation"],
     "Store Manager": ["Peak-hour staffing", "Supplier expediting"],
 }
 
