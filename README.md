@@ -281,12 +281,3 @@ pytest tests/
 8. **Submit feedback** on Executive Overview, then view the Feedback page history.
 9. **Telemetry** — check per-analysis latency, retrieval count, LLM calls, token usage, and estimated cost.
 
----
-
-## 7. Known Limitations (Prototype Scope)
-
-- **No authentication** — entitlement is simulated via the persona dropdown as specified. In production, this would be replaced by an SSO/RBAC system.
-- **In-memory vector store** — rebuilt each session; not a production vector database (Pinecone, Weaviate, pgvector, etc.).
-- **Counterfactual and action-simulator impact estimates** use documented business-assumption elasticities, not fitted causal models. This is explicitly surfaced in the UI.
-- **LLM cost on Telemetry** reflects actual OpenAI API token pricing and is shown for observability; in the fallback (no API key) state, cost will show as near-zero template token estimates.
-- **Feedback store** is in-memory per session. A production deployment would persist verdicts to a database for ongoing driver weight tuning.
