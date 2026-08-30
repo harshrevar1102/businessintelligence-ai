@@ -27,6 +27,7 @@ def render(datasets, persona, location_label):
     config = action_simulator.LEVER_LIBRARY[driver_choice]
 
     with st.container(border=True):
+        # Staffing controls
         current_associates = int(ctx.staffing_df["staff_available"].mean()) if len(ctx.staffing_df) else 8
         proposed_associates = (
             st.slider("Proposed peak-hour associates per store", 3, 15, current_associates + 2)
@@ -34,8 +35,36 @@ def render(datasets, persona, location_label):
             else current_associates
         )
 
+        # Pricing controls
+        proposed_price_change = (
+            st.slider("Proposed price adjustment (%)", -10.0, 10.0, -2.0, 0.5,
+                     help="Negative values = discount, Positive values = price increase")
+            if config["lever"] == "Promotional pricing"
+            else -2.0
+        )
+
+        # Promotion controls
         promo_active = ctx.promotions_df["end_date"].max() >= pd.Timestamp("2026-07-31").strftime("%Y-%m-%d")
+        proposed_promo_reactivate = (
+            st.checkbox("Reactivate promotional campaign", value=True,
+                       help="Simulate reactivating or extending the promotional campaign")
+            if config["lever"] == "Campaign reactivation"
+            else True
+        )
+
+        # Inventory controls
         stockout_present = bool(ctx.inventory_df["stockout_flag"].any()) if len(ctx.inventory_df) else False
+        if config["lever"] == "Supplier expediting":
+            st.markdown(
+                f"<div style='font-size:14px;color:#1e293b;margin-bottom:8px;'>Current stockout present: <b>{stockout_present}</b></div>",
+                unsafe_allow_html=True,
+            )
+        proposed_stockout_resolve = (
+            st.checkbox("Expedite supplier delivery to resolve stockout", value=True,
+                       help="Simulate expediting delivery to resolve the stockout")
+            if config["lever"] == "Supplier expediting"
+            else True
+        )
 
     plan = action_simulator.build_action_plan(
         driver=driver,
@@ -48,6 +77,9 @@ def render(datasets, persona, location_label):
         current_avg_ticket=kpis["Average Ticket"].current_value,
         promotion_active=promo_active,
         stockout_present=stockout_present,
+        proposed_price_change=proposed_price_change,
+        proposed_promo_reactivate=proposed_promo_reactivate,
+        proposed_stockout_resolve=proposed_stockout_resolve,
     )
 
     if plan is None:

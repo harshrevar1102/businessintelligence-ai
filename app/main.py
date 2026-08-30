@@ -444,6 +444,11 @@ div[data-testid="stSelectbox"] label, div[data-testid="stSlider"] label, div[dat
     font-weight: 700 !important;
 }
 
+/* Make text color white in textarea on Feedback page */
+div[data-testid="stTextArea"] textarea {
+    color: #ffffff !important;
+}
+
 div[data-baseweb="select"] > div {
     background-color: #ffffff !important;
     border-color: #cbd5e1 !important;
