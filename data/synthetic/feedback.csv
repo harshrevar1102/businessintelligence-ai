@@ -1,0 +1,718 @@
+feedback_id,date,city,store,text,rating,topic
+FB000001,2026-07-02,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000002,2026-07-02,Ahmedabad,Navrangpura,Waited far too long to get my order today.,2,wait
+FB000003,2026-07-02,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000004,2026-07-02,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000005,2026-07-02,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000006,2026-07-02,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000007,2026-07-02,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000008,2026-07-02,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000009,2026-07-02,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000010,2026-07-02,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000011,2026-07-02,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000012,2026-07-02,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000013,2026-07-02,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000014,2026-07-02,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000015,2026-07-02,Bengaluru,Indiranagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000016,2026-07-02,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000017,2026-07-02,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000018,2026-07-02,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000019,2026-07-02,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000020,2026-07-02,Hyderabad,Banjara Hills,Queue was really slow during the evening rush.,2,wait
+FB000021,2026-07-02,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000022,2026-07-02,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000023,2026-07-03,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000024,2026-07-03,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000025,2026-07-03,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000026,2026-07-03,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000027,2026-07-03,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000028,2026-07-03,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000029,2026-07-03,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000030,2026-07-03,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000031,2026-07-03,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000032,2026-07-03,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000033,2026-07-03,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000034,2026-07-03,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000035,2026-07-03,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000036,2026-07-03,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000037,2026-07-03,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000038,2026-07-03,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000039,2026-07-03,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000040,2026-07-03,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000041,2026-07-03,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000042,2026-07-03,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000043,2026-07-03,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000044,2026-07-03,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000045,2026-07-03,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000046,2026-07-04,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000047,2026-07-04,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000048,2026-07-04,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000049,2026-07-04,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000050,2026-07-04,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000051,2026-07-04,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000052,2026-07-04,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000053,2026-07-04,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000054,2026-07-04,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000055,2026-07-04,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000056,2026-07-04,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000057,2026-07-04,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000058,2026-07-04,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000059,2026-07-04,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000060,2026-07-04,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000061,2026-07-04,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000062,2026-07-04,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000063,2026-07-04,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000064,2026-07-04,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000065,2026-07-04,Bengaluru,Indiranagar,Queue was really slow during the evening rush.,2,wait
+FB000066,2026-07-04,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000067,2026-07-04,Bengaluru,Indiranagar,Waited far too long to get my order today.,2,wait
+FB000068,2026-07-04,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000069,2026-07-04,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000070,2026-07-04,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000071,2026-07-04,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000072,2026-07-04,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000073,2026-07-04,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000074,2026-07-04,Hyderabad,Gachibowli,Waited far too long to get my order today.,2,wait
+FB000075,2026-07-05,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000076,2026-07-05,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000077,2026-07-05,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000078,2026-07-05,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000079,2026-07-05,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000080,2026-07-05,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000081,2026-07-05,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000082,2026-07-05,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000083,2026-07-05,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000084,2026-07-05,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000085,2026-07-05,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000086,2026-07-05,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000087,2026-07-05,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000088,2026-07-05,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
+FB000089,2026-07-05,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000090,2026-07-05,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000091,2026-07-05,Bengaluru,Koramangala,Queue was really slow during the evening rush.,2,wait
+FB000092,2026-07-05,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000093,2026-07-05,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000094,2026-07-05,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000095,2026-07-05,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000096,2026-07-05,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000097,2026-07-05,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000098,2026-07-06,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000099,2026-07-06,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000100,2026-07-06,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000101,2026-07-06,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000102,2026-07-06,Jaipur,Malviya Nagar,Waited far too long to get my order today.,2,wait
+FB000103,2026-07-06,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000104,2026-07-06,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000105,2026-07-06,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000106,2026-07-06,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000107,2026-07-06,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000108,2026-07-06,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000109,2026-07-06,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000110,2026-07-06,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000111,2026-07-06,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000112,2026-07-06,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000113,2026-07-06,Bengaluru,Koramangala,Waited far too long to get my order today.,2,wait
+FB000114,2026-07-06,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000115,2026-07-06,Hyderabad,Banjara Hills,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000116,2026-07-06,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000117,2026-07-06,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000118,2026-07-06,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000119,2026-07-06,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000120,2026-07-07,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000121,2026-07-07,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000122,2026-07-07,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000123,2026-07-07,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000124,2026-07-07,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000125,2026-07-07,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000126,2026-07-07,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000127,2026-07-07,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000128,2026-07-07,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000129,2026-07-07,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000130,2026-07-07,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000131,2026-07-07,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000132,2026-07-07,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000133,2026-07-07,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000134,2026-07-07,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000135,2026-07-07,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000136,2026-07-07,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000137,2026-07-07,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000138,2026-07-07,Hyderabad,Banjara Hills,Waited far too long to get my order today.,2,wait
+FB000139,2026-07-07,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000140,2026-07-07,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000141,2026-07-08,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000142,2026-07-08,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000143,2026-07-08,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000144,2026-07-08,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000145,2026-07-08,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000146,2026-07-08,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000147,2026-07-08,Jaipur,C-Scheme,Waited far too long to get my order today.,2,wait
+FB000148,2026-07-08,Jaipur,C-Scheme,Queue was really slow during the evening rush.,2,wait
+FB000149,2026-07-08,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000150,2026-07-08,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000151,2026-07-08,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000152,2026-07-08,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000153,2026-07-08,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000154,2026-07-08,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000155,2026-07-08,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000156,2026-07-08,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000157,2026-07-08,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000158,2026-07-08,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000159,2026-07-08,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000160,2026-07-08,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
+FB000161,2026-07-08,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000162,2026-07-08,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000163,2026-07-08,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000164,2026-07-08,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000165,2026-07-08,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000166,2026-07-08,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000167,2026-07-09,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000168,2026-07-09,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000169,2026-07-09,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000170,2026-07-09,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000171,2026-07-09,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000172,2026-07-09,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000173,2026-07-09,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000174,2026-07-09,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000175,2026-07-09,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000176,2026-07-09,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000177,2026-07-09,Mumbai,Andheri,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000178,2026-07-09,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000179,2026-07-09,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000180,2026-07-09,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000181,2026-07-09,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000182,2026-07-09,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000183,2026-07-09,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000184,2026-07-09,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000185,2026-07-09,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000186,2026-07-09,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000187,2026-07-10,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000188,2026-07-10,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000189,2026-07-10,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000190,2026-07-10,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000191,2026-07-10,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000192,2026-07-10,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000193,2026-07-10,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000194,2026-07-10,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000195,2026-07-10,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000196,2026-07-10,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000197,2026-07-10,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000198,2026-07-10,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000199,2026-07-10,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000200,2026-07-10,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000201,2026-07-10,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000202,2026-07-10,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000203,2026-07-10,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000204,2026-07-10,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000205,2026-07-10,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000206,2026-07-10,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000207,2026-07-10,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000208,2026-07-10,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000209,2026-07-10,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000210,2026-07-10,Hyderabad,Gachibowli,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000211,2026-07-10,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000212,2026-07-11,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000213,2026-07-11,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000214,2026-07-11,Ahmedabad,Navrangpura,Waited far too long to get my order today.,2,wait
+FB000215,2026-07-11,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000216,2026-07-11,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000217,2026-07-11,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000218,2026-07-11,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000219,2026-07-11,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000220,2026-07-11,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000221,2026-07-11,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000222,2026-07-11,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000223,2026-07-11,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000224,2026-07-11,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000225,2026-07-11,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000226,2026-07-11,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000227,2026-07-11,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000228,2026-07-11,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000229,2026-07-11,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000230,2026-07-11,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000231,2026-07-11,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000232,2026-07-11,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000233,2026-07-11,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000234,2026-07-11,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000235,2026-07-11,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000236,2026-07-11,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000237,2026-07-12,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000238,2026-07-12,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000239,2026-07-12,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000240,2026-07-12,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000241,2026-07-12,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000242,2026-07-12,Jaipur,C-Scheme,Queue was really slow during the evening rush.,2,wait
+FB000243,2026-07-12,Jaipur,Malviya Nagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000244,2026-07-12,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000245,2026-07-12,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000246,2026-07-12,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000247,2026-07-12,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000248,2026-07-12,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000249,2026-07-12,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000250,2026-07-12,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000251,2026-07-12,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000252,2026-07-12,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000253,2026-07-12,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000254,2026-07-12,Bengaluru,Koramangala,Waited far too long to get my order today.,2,wait
+FB000255,2026-07-12,Bengaluru,Koramangala,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000256,2026-07-12,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000257,2026-07-12,Hyderabad,Gachibowli,Waited far too long to get my order today.,2,wait
+FB000258,2026-07-13,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000259,2026-07-13,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000260,2026-07-13,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000261,2026-07-13,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000262,2026-07-13,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000263,2026-07-13,Jaipur,C-Scheme,Waited far too long to get my order today.,2,wait
+FB000264,2026-07-13,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000265,2026-07-13,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000266,2026-07-13,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000267,2026-07-13,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000268,2026-07-13,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000269,2026-07-13,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000270,2026-07-13,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000271,2026-07-13,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000272,2026-07-13,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000273,2026-07-13,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000274,2026-07-13,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000275,2026-07-13,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000276,2026-07-13,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000277,2026-07-13,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000278,2026-07-13,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000279,2026-07-13,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000280,2026-07-13,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000281,2026-07-13,Hyderabad,Banjara Hills,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000282,2026-07-13,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000283,2026-07-13,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000284,2026-07-13,Hyderabad,Gachibowli,Queue was really slow during the evening rush.,2,wait
+FB000285,2026-07-14,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000286,2026-07-14,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000287,2026-07-14,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000288,2026-07-14,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000289,2026-07-14,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000290,2026-07-14,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000291,2026-07-14,Jaipur,C-Scheme,Waited far too long to get my order today.,2,wait
+FB000292,2026-07-14,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000293,2026-07-14,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000294,2026-07-14,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000295,2026-07-14,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000296,2026-07-14,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000297,2026-07-14,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000298,2026-07-14,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000299,2026-07-14,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000300,2026-07-14,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000301,2026-07-14,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000302,2026-07-14,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000303,2026-07-14,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000304,2026-07-14,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000305,2026-07-14,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000306,2026-07-14,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000307,2026-07-14,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000308,2026-07-14,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000309,2026-07-14,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000310,2026-07-14,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000311,2026-07-14,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000312,2026-07-14,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000313,2026-07-15,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000314,2026-07-15,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000315,2026-07-15,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000316,2026-07-15,Jaipur,C-Scheme,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000317,2026-07-15,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000318,2026-07-15,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000319,2026-07-15,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000320,2026-07-15,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000321,2026-07-15,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000322,2026-07-15,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000323,2026-07-15,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000324,2026-07-15,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000325,2026-07-15,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000326,2026-07-15,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000327,2026-07-15,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000328,2026-07-15,Bengaluru,Indiranagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000329,2026-07-15,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000330,2026-07-15,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000331,2026-07-15,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000332,2026-07-15,Hyderabad,Gachibowli,Queue was really slow during the evening rush.,2,wait
+FB000333,2026-07-15,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000334,2026-07-15,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
+FB000335,2026-07-16,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000336,2026-07-16,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000337,2026-07-16,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000338,2026-07-16,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000339,2026-07-16,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000340,2026-07-16,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000341,2026-07-16,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000342,2026-07-16,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000343,2026-07-16,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000344,2026-07-16,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000345,2026-07-16,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000346,2026-07-16,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000347,2026-07-16,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000348,2026-07-16,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000349,2026-07-16,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000350,2026-07-16,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000351,2026-07-16,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000352,2026-07-16,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000353,2026-07-16,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000354,2026-07-16,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000355,2026-07-16,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000356,2026-07-16,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000357,2026-07-16,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000358,2026-07-16,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000359,2026-07-16,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000360,2026-07-16,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000361,2026-07-16,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000362,2026-07-17,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000363,2026-07-17,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000364,2026-07-17,Ahmedabad,Navrangpura,Waited far too long to get my order today.,2,wait
+FB000365,2026-07-17,Ahmedabad,Navrangpura,Queue was really slow during the evening rush.,2,wait
+FB000366,2026-07-17,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000367,2026-07-17,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000368,2026-07-17,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000369,2026-07-17,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000370,2026-07-17,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000371,2026-07-17,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000372,2026-07-17,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000373,2026-07-17,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000374,2026-07-17,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000375,2026-07-17,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000376,2026-07-17,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000377,2026-07-17,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000378,2026-07-17,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000379,2026-07-17,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000380,2026-07-17,Bengaluru,Koramangala,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000381,2026-07-17,Hyderabad,Banjara Hills,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000382,2026-07-17,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000383,2026-07-17,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000384,2026-07-17,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000385,2026-07-17,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000386,2026-07-18,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000387,2026-07-18,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000388,2026-07-18,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000389,2026-07-18,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000390,2026-07-18,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000391,2026-07-18,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000392,2026-07-18,Jaipur,Malviya Nagar,Queue was really slow during the evening rush.,2,wait
+FB000393,2026-07-18,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000394,2026-07-18,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000395,2026-07-18,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000396,2026-07-18,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000397,2026-07-18,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000398,2026-07-18,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000399,2026-07-18,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000400,2026-07-18,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000401,2026-07-18,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000402,2026-07-18,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000403,2026-07-18,Bengaluru,Indiranagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000404,2026-07-18,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000405,2026-07-18,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000406,2026-07-18,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000407,2026-07-18,Bengaluru,Koramangala,Queue was really slow during the evening rush.,2,wait
+FB000408,2026-07-18,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000409,2026-07-18,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000410,2026-07-18,Hyderabad,Gachibowli,Queue was really slow during the evening rush.,2,wait
+FB000411,2026-07-18,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
+FB000412,2026-07-19,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000413,2026-07-19,Ahmedabad,Navrangpura,Queue was really slow during the evening rush.,2,wait
+FB000414,2026-07-19,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000415,2026-07-19,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000416,2026-07-19,Jaipur,C-Scheme,Waited far too long to get my order today.,2,wait
+FB000417,2026-07-19,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000418,2026-07-19,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000419,2026-07-19,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000420,2026-07-19,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000421,2026-07-19,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000422,2026-07-19,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000423,2026-07-19,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000424,2026-07-19,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000425,2026-07-19,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000426,2026-07-19,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
+FB000427,2026-07-19,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000428,2026-07-19,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000429,2026-07-19,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000430,2026-07-19,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000431,2026-07-19,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000432,2026-07-19,Hyderabad,Gachibowli,Queue was really slow during the evening rush.,2,wait
+FB000433,2026-07-20,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000434,2026-07-20,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000435,2026-07-20,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000436,2026-07-20,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000437,2026-07-20,Ahmedabad,Navrangpura,Waited far too long to get my order today.,2,wait
+FB000438,2026-07-20,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000439,2026-07-20,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000440,2026-07-20,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000441,2026-07-20,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000442,2026-07-20,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000443,2026-07-20,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000444,2026-07-20,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000445,2026-07-20,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000446,2026-07-20,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000447,2026-07-20,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000448,2026-07-20,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000449,2026-07-20,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000450,2026-07-20,Mumbai,Andheri,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000451,2026-07-20,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000452,2026-07-20,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000453,2026-07-20,Hyderabad,Banjara Hills,Queue was really slow during the evening rush.,2,wait
+FB000454,2026-07-20,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000455,2026-07-20,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000456,2026-07-20,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000457,2026-07-21,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000458,2026-07-21,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000459,2026-07-21,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000460,2026-07-21,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000461,2026-07-21,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000462,2026-07-21,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000463,2026-07-21,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000464,2026-07-21,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000465,2026-07-21,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000466,2026-07-21,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000467,2026-07-21,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000468,2026-07-21,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000469,2026-07-21,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000470,2026-07-21,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000471,2026-07-21,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000472,2026-07-21,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000473,2026-07-21,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000474,2026-07-21,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000475,2026-07-21,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000476,2026-07-21,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000477,2026-07-21,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000478,2026-07-22,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000479,2026-07-22,Ahmedabad,Satellite,"Loved the new Chai Frappe, will order again.",5,positive
+FB000480,2026-07-22,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000481,2026-07-22,Jaipur,C-Scheme,Waited far too long to get my order today.,2,wait
+FB000482,2026-07-22,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000483,2026-07-22,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000484,2026-07-22,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000485,2026-07-22,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000486,2026-07-22,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000487,2026-07-22,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
+FB000488,2026-07-22,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000489,2026-07-22,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000490,2026-07-22,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000491,2026-07-22,Bengaluru,Indiranagar,Waited far too long to get my order today.,2,wait
+FB000492,2026-07-22,Bengaluru,Koramangala,Queue was really slow during the evening rush.,2,wait
+FB000493,2026-07-22,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000494,2026-07-22,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000495,2026-07-22,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000496,2026-07-22,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
+FB000497,2026-07-22,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000498,2026-07-23,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000499,2026-07-23,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000500,2026-07-23,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000501,2026-07-23,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000502,2026-07-23,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000503,2026-07-23,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000504,2026-07-23,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000505,2026-07-23,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000506,2026-07-23,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000507,2026-07-23,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000508,2026-07-23,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000509,2026-07-23,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000510,2026-07-23,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000511,2026-07-23,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000512,2026-07-23,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000513,2026-07-23,Bengaluru,Koramangala,Queue was really slow during the evening rush.,2,wait
+FB000514,2026-07-23,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000515,2026-07-23,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000516,2026-07-23,Hyderabad,Banjara Hills,"Loved the new Chai Frappe, will order again.",5,positive
+FB000517,2026-07-23,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000518,2026-07-24,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000519,2026-07-24,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000520,2026-07-24,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000521,2026-07-24,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000522,2026-07-24,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000523,2026-07-24,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000524,2026-07-24,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000525,2026-07-24,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000526,2026-07-24,Jaipur,C-Scheme,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000527,2026-07-24,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000528,2026-07-24,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000529,2026-07-24,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000530,2026-07-24,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000531,2026-07-24,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000532,2026-07-24,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000533,2026-07-24,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000534,2026-07-24,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000535,2026-07-24,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000536,2026-07-24,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000537,2026-07-24,Bengaluru,Koramangala,Waited far too long to get my order today.,2,wait
+FB000538,2026-07-24,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000539,2026-07-24,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000540,2026-07-24,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000541,2026-07-24,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000542,2026-07-24,Hyderabad,Banjara Hills,Great service and friendly staff as usual.,5,positive
+FB000543,2026-07-24,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
+FB000544,2026-07-24,Hyderabad,Gachibowli,Waited far too long to get my order today.,2,wait
+FB000545,2026-07-24,Hyderabad,Gachibowli,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000546,2026-07-25,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000547,2026-07-25,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000548,2026-07-25,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000549,2026-07-25,Ahmedabad,Navrangpura,Waited far too long to get my order today.,2,wait
+FB000550,2026-07-25,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000551,2026-07-25,Jaipur,C-Scheme,Queue was really slow during the evening rush.,2,wait
+FB000552,2026-07-25,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000553,2026-07-25,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000554,2026-07-25,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000555,2026-07-25,Jaipur,Malviya Nagar,Queue was really slow during the evening rush.,2,wait
+FB000556,2026-07-25,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000557,2026-07-25,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000558,2026-07-25,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000559,2026-07-25,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000560,2026-07-25,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
+FB000561,2026-07-25,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000562,2026-07-25,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000563,2026-07-25,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000564,2026-07-25,Bengaluru,Indiranagar,Queue was really slow during the evening rush.,2,wait
+FB000565,2026-07-25,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000566,2026-07-25,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000567,2026-07-25,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000568,2026-07-25,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000569,2026-07-25,Hyderabad,Banjara Hills,Queue was really slow during the evening rush.,2,wait
+FB000570,2026-07-25,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000571,2026-07-26,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000572,2026-07-26,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000573,2026-07-26,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000574,2026-07-26,Ahmedabad,Navrangpura,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000575,2026-07-26,Ahmedabad,Navrangpura,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000576,2026-07-26,Ahmedabad,Navrangpura,Queue was really slow during the evening rush.,2,wait
+FB000577,2026-07-26,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000578,2026-07-26,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000579,2026-07-26,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000580,2026-07-26,Jaipur,Malviya Nagar,Great service and friendly staff as usual.,5,positive
+FB000581,2026-07-26,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000582,2026-07-26,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000583,2026-07-26,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000584,2026-07-26,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000585,2026-07-26,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000586,2026-07-26,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000587,2026-07-26,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000588,2026-07-26,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000589,2026-07-26,Bengaluru,Koramangala,Waited far too long to get my order today.,2,wait
+FB000590,2026-07-26,Hyderabad,Banjara Hills,Waited far too long to get my order today.,2,wait
+FB000591,2026-07-26,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000592,2026-07-26,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000593,2026-07-27,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000594,2026-07-27,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000595,2026-07-27,Jaipur,C-Scheme,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000596,2026-07-27,Jaipur,C-Scheme,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000597,2026-07-27,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000598,2026-07-27,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000599,2026-07-27,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000600,2026-07-27,Jaipur,Malviya Nagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000601,2026-07-27,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000602,2026-07-27,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000603,2026-07-27,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000604,2026-07-27,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000605,2026-07-27,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000606,2026-07-27,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000607,2026-07-27,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000608,2026-07-27,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000609,2026-07-27,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000610,2026-07-27,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000611,2026-07-27,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000612,2026-07-27,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000613,2026-07-27,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000614,2026-07-27,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000615,2026-07-28,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000616,2026-07-28,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000617,2026-07-28,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000618,2026-07-28,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000619,2026-07-28,Jaipur,C-Scheme,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000620,2026-07-28,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000621,2026-07-28,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000622,2026-07-28,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000623,2026-07-28,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000624,2026-07-28,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000625,2026-07-28,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000626,2026-07-28,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000627,2026-07-28,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000628,2026-07-28,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000629,2026-07-28,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000630,2026-07-28,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000631,2026-07-28,Bengaluru,Koramangala,"Loved the new Chai Frappe, will order again.",5,positive
+FB000632,2026-07-28,Hyderabad,Banjara Hills,Queue was really slow during the evening rush.,2,wait
+FB000633,2026-07-28,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000634,2026-07-28,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000635,2026-07-28,Hyderabad,Gachibowli,Great service and friendly staff as usual.,5,positive
+FB000636,2026-07-28,Hyderabad,Gachibowli,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000637,2026-07-29,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000638,2026-07-29,Ahmedabad,Satellite,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000639,2026-07-29,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000640,2026-07-29,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000641,2026-07-29,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000642,2026-07-29,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000643,2026-07-29,Jaipur,C-Scheme,Great service and friendly staff as usual.,5,positive
+FB000644,2026-07-29,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000645,2026-07-29,Jaipur,Malviya Nagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000646,2026-07-29,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000647,2026-07-29,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000648,2026-07-29,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000649,2026-07-29,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000650,2026-07-29,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000651,2026-07-29,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000652,2026-07-29,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000653,2026-07-29,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000654,2026-07-29,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000655,2026-07-29,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000656,2026-07-29,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000657,2026-07-29,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000658,2026-07-29,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000659,2026-07-29,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000660,2026-07-29,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000661,2026-07-29,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000662,2026-07-29,Hyderabad,Banjara Hills,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000663,2026-07-29,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000664,2026-07-29,Hyderabad,Gachibowli,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000665,2026-07-30,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000666,2026-07-30,Ahmedabad,Satellite,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000667,2026-07-30,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000668,2026-07-30,Ahmedabad,Navrangpura,Great service and friendly staff as usual.,5,positive
+FB000669,2026-07-30,Ahmedabad,Navrangpura,"Loved the new Chai Frappe, will order again.",5,positive
+FB000670,2026-07-30,Ahmedabad,Navrangpura,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000671,2026-07-30,Jaipur,C-Scheme,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000672,2026-07-30,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000673,2026-07-30,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000674,2026-07-30,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000675,2026-07-30,Jaipur,Malviya Nagar,Queue was really slow during the evening rush.,2,wait
+FB000676,2026-07-30,Jaipur,Malviya Nagar,Waited far too long to get my order today.,2,wait
+FB000677,2026-07-30,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000678,2026-07-30,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000679,2026-07-30,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000680,2026-07-30,Delhi,Saket,Great service and friendly staff as usual.,5,positive
+FB000681,2026-07-30,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000682,2026-07-30,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000683,2026-07-30,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
+FB000684,2026-07-30,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
+FB000685,2026-07-30,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000686,2026-07-30,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000687,2026-07-30,Bengaluru,Koramangala,Great service and friendly staff as usual.,5,positive
+FB000688,2026-07-30,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000689,2026-07-30,Hyderabad,Gachibowli,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000690,2026-07-30,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
+FB000691,2026-07-31,Ahmedabad,Satellite,Great service and friendly staff as usual.,5,positive
+FB000692,2026-07-31,Ahmedabad,Navrangpura,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000693,2026-07-31,Jaipur,C-Scheme,"Loved the new Chai Frappe, will order again.",5,positive
+FB000694,2026-07-31,Jaipur,C-Scheme,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000695,2026-07-31,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000696,2026-07-31,Jaipur,Malviya Nagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000697,2026-07-31,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000698,2026-07-31,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
+FB000699,2026-07-31,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
+FB000700,2026-07-31,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
+FB000701,2026-07-31,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
+FB000702,2026-07-31,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
+FB000703,2026-07-31,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000704,2026-07-31,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
+FB000705,2026-07-31,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
+FB000706,2026-07-31,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000707,2026-07-31,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
+FB000708,2026-07-31,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000709,2026-07-31,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
+FB000710,2026-07-31,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
+FB000711,2026-07-31,Bengaluru,Koramangala,Queue was really slow during the evening rush.,2,wait
+FB000712,2026-07-31,Bengaluru,Koramangala,Waited far too long to get my order today.,2,wait
+FB000713,2026-07-31,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
+FB000714,2026-07-31,Hyderabad,Banjara Hills,"Service felt understaffed, long wait for a simple coffee.",2,wait
+FB000715,2026-07-31,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000716,2026-07-31,Hyderabad,Banjara Hills,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
+FB000717,2026-07-31,Hyderabad,Gachibowli,"Loved the new Chai Frappe, will order again.",5,positive
