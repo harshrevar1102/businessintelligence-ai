@@ -204,7 +204,34 @@ def render(datasets, persona, location_label):
                     ins3_body,
                 )
 
-                st.markdown(ins1_html + "\n<div style='height:8px;'></div>\n" + ins2_html + "\n<div style='height:8px;'></div>\n" + ins3_html, unsafe_allow_html=True)
+                def format_evidence(idx, res_list):
+                    if idx >= len(res_list): return ""
+                    c = res_list[idx]["chunk"]
+                    return textwrap.dedent(f"""
+<div style="margin: 0 0 12px 24px; padding: 12px 16px; background: #f8fafc; border-left: 3px solid #38bdf8; border-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+        <div style="font-size:13px; font-weight:750; color:#0f172a;">Evidence: {c['subject']}</div>
+        <span class="bi-badge bi-badge-watch" style="font-size:10px;">{c['source_type']}</span>
+    </div>
+    <div style="font-size:12.5px; color:#334155; line-height:1.5; font-style:italic;">
+        "{c['text']}"
+    </div>
+    <div style="font-size:11px; color:#64748b; margin-top:6px;">
+        Location: <b>{c['city']}/{c['store']}</b> • Date: {c['date']}
+    </div>
+</div>
+""").strip()
+
+                ev1 = format_evidence(0, results)
+                ev2 = format_evidence(1, results)
+                ev3 = format_evidence(2, results)
+
+                html_block = (
+                    ins1_html + "\n" + ev1 + "\n<div style='height:8px;'></div>\n" +
+                    ins2_html + "\n" + ev2 + "\n<div style='height:8px;'></div>\n" +
+                    ins3_html + "\n" + ev3
+                )
+                st.markdown(html_block, unsafe_allow_html=True)
 
             if not contradictory_evidence and llm_result.get("text"):
                 synth_text = llm_result["text"].replace("\n\n", "<br><br>").replace("**", "")
@@ -216,18 +243,6 @@ def render(datasets, persona, location_label):
                     """,
                     unsafe_allow_html=True,
                 )
-
-            with st.expander(f"Contextual Evidence & Field Notes ({len(results)} sources retrieved)"):
-                for r in results:
-                    c = r["chunk"]
-                    st.markdown(
-                        f"**{c['subject']}** — <span class='bi-badge bi-badge-watch'>{c['source_type']}</span> <span style='color:#475569;font-size:12px;'>{c['city']}/{c['store']} • {c['date']} • score: {r['score']:.2f}</span>",
-                        unsafe_allow_html=True,
-                    )
-                    st.markdown(
-                        f"<div style='color:#334155;font-size:13px;padding:4px 0 8px;font-weight:500;'>{c['text']}</div>",
-                        unsafe_allow_html=True,
-                    )
 
     with why_col2:
         with st.container(border=True):

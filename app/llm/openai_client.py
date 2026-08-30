@@ -53,7 +53,10 @@ def chat(system_prompt, user_prompt, model=None, temperature=0.3):
         output_tokens = response.usage.completion_tokens if response.usage else _estimate_tokens(text)
 
         return text, input_tokens, output_tokens, latency, True
-    except Exception:
+    except Exception as e:
+        import traceback
+        print(f"[openai_client] API call failed: {e}")
+        traceback.print_exc()
         latency = time.time() - start
         return "", _estimate_tokens(system_prompt + user_prompt), 0, latency, False
 

@@ -417,6 +417,11 @@ div[data-testid="stSelectbox"] label, div[data-testid="stSlider"] label, div[dat
     font-weight: 700 !important;
 }
 
+/* Make text color white in textarea on Feedback page */
+div[data-testid="stTextArea"] textarea {
+    color: #ffffff !important;
+}
+
 div[data-baseweb="select"] > div {
     background-color: #ffffff !important;
     border-color: #cbd5e1 !important;
@@ -484,3 +489,63 @@ hr {
     border-color: #e2e8f0 !important;
     margin: 1.5rem 0 !important;
 }
+
+/* Main content buttons (Feedback, etc.) */
+div[data-testid="stButton"] button, 
+button[kind="secondary"], 
+button[kind="primary"] {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    transition: all 0.2s ease !important;
+    font-weight: 600 !important;
+}
+
+div[data-testid="stButton"] button:hover,
+button[kind="secondary"]:hover,
+button[kind="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    border-color: #94a3b8 !important;
+    background-color: #f8fafc !important;
+    color: #2563eb !important;
+}
+
+/* Sidebar Navigation Buttons - Re-override the global button style */
+[data-testid="stSidebar"] div.stButton > button {
+    background-color: transparent !important;
+    color: #cbd5e1 !important;
+    border: 1px solid transparent !important;
+}
+[data-testid="stSidebar"] div.stButton > button:hover {
+    background-color: #1e293b !important;
+    color: #ffffff !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+[data-testid="stSidebar"] div.stButton > button[kind="primary"] {
+    background-color: #1e293b !important;
+    color: #ffffff !important;
+    border-left: 3px solid #38bdf8 !important;
+}
+
+/* Forms and Inputs */
+div[data-baseweb="input"],
+div[data-baseweb="input"] input,
+div[data-baseweb="select"] > div {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    -webkit-text-fill-color: #0f172a !important;
+}
+
+/* Toast/Notification */
+[data-testid="stToast"], [data-testid="stNotification"] {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+[data-testid="stToast"] *, [data-testid="stNotification"] * {
+    color: #0f172a !important;
+}
+

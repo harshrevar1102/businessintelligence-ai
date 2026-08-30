@@ -25,6 +25,7 @@ st.set_page_config(
 with open("app/style.css") as f:
     st.markdown(f"<style>\n{f.read()}\n</style>", unsafe_allow_html=True)
 
+
 PAGES = {
     "Workspace": {
         "Executive Overview": executive_overview,
@@ -34,7 +35,6 @@ PAGES = {
         "Action Simulator": action_simulator_page,
     },
     "Data": {
-        "Evidence": evidence_explorer,
         "Data Sources": data_sources_page,
         "KPI Contract": kpi_contract_page,
     },

@@ -4,7 +4,7 @@ A working Streamlit prototype of a KPI Intelligence-to-Action Engine for CafeCo,
 fictional Indian cafe chain. The prototype takes a business user from **what
 happened** to **why it happened** to **what if we change something** to **what
 should we do**, combining deterministic analytics, business rules, RAG-based
-evidence retrieval and a locally-hosted LLM (via Ollama) for narrative generation.
+evidence retrieval and an OpenAI LLM (via the OpenAI API) for narrative generation.
 
 All data in this prototype is synthetic — nothing here represents a real business.
 The dataset is committed as CSV files under `data/synthetic/`, with a generator
@@ -44,10 +44,10 @@ numbers.
                                    |
         ------------------------------------------------------------
         |                         |                                |
-  Structured Analytics      RAG / Evidence Layer              LLM (Ollama)
-  (app/analytics/*)         (app/rag/*)                       (app/llm/*)
+  Structured Analytics      RAG / Evidence Layer           LLM (OpenAI API)
+  (app/analytics/*)         (app/rag/*)                    (app/llm/*)
   - KPI engine               - ingest -> chunk                - narrative
-  - Baselines/materiality    - embed (Ollama or TF-IDF)          generation
+  - Baselines/materiality    - embed (OpenAI embeddings)        generation
   - Driver decomposition     - in-memory vector search         - recommendation
   - Counterfactuals          - entitlement-filtered retrieval    narration
   - Action simulator
@@ -74,7 +74,7 @@ without touching the others.
 | Deterministic | volume x price decomposition | Splitting revenue movement into transaction-volume vs pricing/mix effects |
 | Statistics | Pearson correlation | Wait-time vs transaction-volume signal |
 | RAG | embeddings + cosine similarity | Retrieving relevant emails/reports/feedback for a driver |
-| LLM | local Ollama model | Narrating the (already computed) numbers and evidence per persona |
+| LLM | OpenAI API (gpt-4o-mini) | Narrating the (already computed) numbers and evidence per persona |
 | Deterministic | assumption-based simulation | Counterfactual / action-simulator impact estimates |
 
 ---
@@ -89,7 +89,7 @@ app/
   data/              synthetic data generator + loader (see note below)
   analytics/         KPI engine, driver analysis, counterfactuals, action simulator, context builder
   rag/               ingestion/chunking, embeddings, vector store, retriever
-  llm/               Ollama client, prompts, narrative generation
+  llm/               OpenAI client, prompts, narrative generation
   entitlement/       persona -> location filtering (simulated, no auth)
   personas/          persona decision-rights (which levers each persona can act on)
   feedback/          in-memory feedback capture
@@ -170,12 +170,11 @@ layer, not just hidden in the UI.
 entitlement -> hand to LLM`. Only the top-k retrieved chunks for a specific query
 are ever included in an LLM prompt — the full document set is never sent.
 
-### LLM integration (Ollama)
+### LLM integration (OpenAI API)
 
-All narrative generation goes through `app/llm/ollama_client.py`, which talks to a
-local Ollama server. If Ollama isn't running or the model isn't pulled, the app
-falls back to a clearly-labelled template narrative so the rest of the prototype
-keeps working — see **Installing Ollama** below.
+All narrative generation and embeddings search goes through `app/llm/openai_client.py`, which communicates with the OpenAI API. If the API is unreachable, the app falls back to a clearly-labelled template narrative so the rest of the prototype keeps working.
+
+The credentials and model configuration are securely loaded from a local `.env` file (which is ignored by Git). A `.env.example` file is provided to help users configure their credentials.
 
 ---
 
@@ -190,14 +189,15 @@ keeps working — see **Installing Ollama** below.
   alternative hypotheses.
 - Counterfactuals: interactive what-if simulator across wait time, staffing,
   pricing, promotions and inventory.
-- Action Simulator: driver -> lever -> action -> expected impact -> owner ->
-  confidence -> monitoring plan, filtered by persona decision rights.
+- Action Simulator: interactive driver -> lever -> action -> expected impact -> owner ->
+  confidence -> monitoring plan, filtered by persona decision rights. Fully interactive controls exist for Wait Time / Staffing, Promotion Ended, Pricing / Product Mix, and Inventory Stockout drivers.
 - Evidence Explorer: free-text semantic search over all ingested documents and
   feedback, with contradiction detection.
 - Data Sources: source metadata (grain, cadence, freshness, quality, lineage).
 - KPI Contract: the semantic contract for each KPI.
-- Feedback: capture + session history + explanation of how it would be used.
+- Feedback: capture + session history + explanation of how it would be used (with custom high-contrast dark-mode theme friendly text color).
 - Telemetry: per-analysis latency, retrieval count, LLM calls, tokens and
+  estimated cost.
   estimated cost.
 
 See `FEATURES.md` for a flat one-line-per-feature list.
@@ -208,66 +208,51 @@ See `FEATURES.md` for a flat one-line-per-feature list.
 
 ### 5.1 Python environment
 
+To set up a local virtual environment:
+
 ```bash
+# Create visual environment
 python -m venv venv
-source venv/bin/activate        # on Windows: venv\Scripts\activate
+
+# Activate virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows (cmd):
+venv\Scripts\activate.bat
+# On Windows (PowerShell):
+venv\Scripts\Activate.ps1
+
+# Install requirements
 pip install -r requirements.txt
 ```
 
-### 5.2 Installing Ollama (for the LLM features)
+### 5.2 API Credentials
 
-The prototype is built to run entirely on a local model via [Ollama](https://ollama.com),
-so no API key or cloud LLM account is required.
+Before launching the app, set up your credentials:
 
-1. Install Ollama for your OS from https://ollama.com/download (macOS, Windows,
-   or Linux via `curl -fsSL https://ollama.com/install.sh | sh`).
-2. Start the Ollama service (it usually starts automatically after install; on
-   Linux you may need `ollama serve` in a separate terminal).
-3. Pull a chat model. **`llama3.1:8b` is the recommended default** — it's small
-   enough to run comfortably on a laptop with 16GB RAM while being reliable at the
-   structured, evidence-grounded narration this prototype asks for. `qwen2.5:7b` or
-   `mistral:7b` are reasonable alternatives if you'd rather try something else.
-
+1. Copy the example environment file:
    ```bash
-   ollama pull llama3.1:8b
+   cp .env.example .env
    ```
-
-4. Pull an embedding model, used by the RAG pipeline:
-
-   ```bash
-   ollama pull nomic-embed-text
+2. Open `.env` and fill in your `OPENAI_API_KEY`:
+   ```env
+   OPENAI_API_KEY=your-actual-api-key-here
    ```
-
-5. Confirm it's working:
-
-   ```bash
-   ollama list
-   ```
-
-If you skip this step, the app still runs end to end — narrative generation and
-embeddings fall back to a local template and TF-IDF respectively, and the
-Telemetry page will show Ollama as unreachable.
-
-To point the app at a different model or a non-default Ollama host, set these
-environment variables before launching:
-
-```bash
-export OLLAMA_HOST=http://localhost:11434
-export OLLAMA_CHAT_MODEL=llama3.1:8b
-export OLLAMA_EMBED_MODEL=nomic-embed-text
-```
+3. Optionally, configure a custom base URL and override default models if using a proxy or custom LLM gateway.
 
 ### 5.3 Running the app
+
+Start the Streamlit web server:
 
 ```bash
 streamlit run app/main.py
 ```
 
-Open the URL Streamlit prints (usually http://localhost:8501). No extra setup is
-needed for data — the app reads the committed CSVs in `data/synthetic/`
-automatically.
+Open the URL (typically [http://localhost:8501](http://localhost:8501)) in your web browser.
 
 ### 5.4 Running the tests
+
+To execute the unit tests test suite for the analytics engine:
 
 ```bash
 pytest tests/

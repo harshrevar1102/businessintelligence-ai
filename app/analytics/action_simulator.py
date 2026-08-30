@@ -57,7 +57,8 @@ LEVER_LIBRARY = {
 
 def build_action_plan(driver, current_associates, proposed_associates, current_wait_time,
                        baseline_wait_time, current_revenue, current_transactions, current_avg_ticket,
-                       promotion_active, stockout_present):
+                       promotion_active, stockout_present, proposed_price_change=-2.0,
+                       proposed_promo_reactivate=True, proposed_stockout_resolve=True):
     config = LEVER_LIBRARY.get(driver.name)
     if config is None:
         return None
@@ -69,16 +70,33 @@ def build_action_plan(driver, current_associates, proposed_associates, current_w
         action = f"Increase peak-hour staffing from {current_associates} to {proposed_associates} associates."
         impact_estimate = result.estimated_difference
     elif driver.name == "Pricing / Product Mix":
-        result = cf.counterfactual_pricing(0, -2, current_transactions, current_avg_ticket)
-        action = "Introduce a small targeted discount to rebuild transaction volume."
+        result = cf.counterfactual_pricing(0, proposed_price_change, current_transactions, current_avg_ticket)
+        if proposed_price_change < 0:
+            action = f"Introduce a {abs(proposed_price_change):.1f}% targeted discount to rebuild transaction volume."
+        elif proposed_price_change > 0:
+            action = f"Increase pricing by {proposed_price_change:.1f}% to improve margins."
+        else:
+            action = "Maintain current pricing strategy."
         impact_estimate = result.estimated_difference
     elif driver.name == "Promotion Ended":
-        result = cf.counterfactual_promotion(current_revenue, current_transactions, current_avg_ticket, promotion_active)
-        action = "Reactivate or extend the recently ended promotional campaign."
+        result = cf.counterfactual_promotion(current_revenue, current_transactions, current_avg_ticket,
+                                            promotion_active if not proposed_promo_reactivate else True)
+        if proposed_promo_reactivate and not promotion_active:
+            action = "Reactivate or extend the recently ended promotional campaign."
+        elif proposed_promo_reactivate and promotion_active:
+            action = "Continue or extend the current promotional campaign."
+        else:
+            action = "End or do not reactivate promotional activities."
         impact_estimate = result.estimated_difference
     elif driver.name == "Inventory Stockout":
-        result = cf.counterfactual_inventory(current_revenue, current_transactions, current_avg_ticket, stockout_present)
-        action = "Expedite supplier delivery to resolve the stockout."
+        result = cf.counterfactual_inventory(current_revenue, current_transactions, current_avg_ticket,
+                                            stockout_present if not proposed_stockout_resolve else False)
+        if proposed_stockout_resolve and stockout_present:
+            action = "Expedite supplier delivery to resolve the stockout."
+        elif not proposed_stockout_resolve and stockout_present:
+            action = "Accept the stockout and monitor natural resolution."
+        else:
+            action = "Maintain current inventory management practices."
         impact_estimate = result.estimated_difference
     else:
         return None
