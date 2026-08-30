@@ -24,25 +24,19 @@ NEW_PRODUCT_LAUNCH_DAYS_AGO = 21
 
 PERSONAS = [
     "CEO / Executive",
-    "CFO / Finance",
     "Regional Manager",
     "Store Manager",
-    "Operations Manager",
-    "Marketing Manager",
-    "Business Analyst",
 ]
 
 # Simulated entitlement, used instead of a real auth system.
 # "cities": list of cities the persona can see. None means all of India.
 # "store": a single store the persona is pinned to, or None.
+# "show_all_india": whether the persona can see the national aggregate.
+# "show_cities": whether the persona can see city-level aggregates.
 PERSONA_ENTITLEMENTS = {
-    "CEO / Executive": {"cities": None, "store": None},
-    "CFO / Finance": {"cities": None, "store": None},
-    "Regional Manager": {"cities": ["Mumbai"], "store": None},
-    "Store Manager": {"cities": ["Mumbai"], "store": "Bandra"},
-    "Operations Manager": {"cities": None, "store": None},
-    "Marketing Manager": {"cities": None, "store": None},
-    "Business Analyst": {"cities": None, "store": None},
+    "CEO / Executive": {"cities": None, "store": None, "show_all_india": True, "show_cities": True},
+    "Regional Manager": {"cities": None, "store": None, "show_all_india": False, "show_cities": True},
+    "Store Manager": {"cities": None, "store": None, "show_all_india": False, "show_cities": False},
 }
 
 RANDOM_SEED = 42
@@ -60,11 +54,12 @@ CONFIDENCE_THRESHOLDS = {
     "low": 0.25,
 }
 
-# --- LLM (Ollama) configuration ---------------------------------------
-OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-OLLAMA_CHAT_MODEL = os.environ.get("OLLAMA_CHAT_MODEL", "llama3.1:8b")
-OLLAMA_EMBED_MODEL = os.environ.get("OLLAMA_EMBED_MODEL", "nomic-embed-text")
-OLLAMA_REQUEST_TIMEOUT_SECONDS = 30
+# --- LLM (OpenAI) configuration ---------------------------------------
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "sk-K5DbTWvG3dj3rV2gGFUDCRtjNgahg0n46CRmlyQuwlcT0ypJAg8pmGMl0GQX6Pus")
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", None)
+OPENAI_CHAT_MODEL = os.environ.get("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+OPENAI_EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")
+OPENAI_REQUEST_TIMEOUT_SECONDS = 30
 
 # Nominal cost used only to demonstrate cost telemetry. Local Ollama inference
 # has no per-token API cost, so this simulates what the same workload would

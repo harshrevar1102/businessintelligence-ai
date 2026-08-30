@@ -3,8 +3,10 @@ rich deterministic template fallback together, and always returns telemetry alon
 """
 
 import time
+import json
+import textwrap
 
-from app.llm import ollama_client, prompts
+from app.llm import openai_client, prompts
 
 
 def _fallback_narrative(persona, kpi_summary, drivers_summary):
@@ -26,7 +28,7 @@ def generate_narrative(persona, kpi_summary, drivers_summary, evidence_summary, 
     system_prompt = prompts.narrative_system_prompt(persona)
     user_prompt = prompts.narrative_user_prompt(kpi_summary, drivers_summary, evidence_summary, confidence_note)
 
-    text, input_tokens, output_tokens, latency, success = ollama_client.chat(system_prompt, user_prompt)
+    text, input_tokens, output_tokens, latency, success = openai_client.chat(system_prompt, user_prompt)
 
     if not success or not text:
         text = _fallback_narrative(persona, kpi_summary, drivers_summary)
@@ -45,7 +47,7 @@ def generate_recommendation_narrative(persona, action_plan_summary):
     system_prompt = prompts.recommendation_system_prompt(persona)
     user_prompt = prompts.recommendation_user_prompt(action_plan_summary)
 
-    text, input_tokens, output_tokens, latency, success = ollama_client.chat(system_prompt, user_prompt)
+    text, input_tokens, output_tokens, latency, success = openai_client.chat(system_prompt, user_prompt)
 
     if not success or not text:
         text = f"**Action Plan ({persona}):** {action_plan_summary}"

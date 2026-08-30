@@ -6,12 +6,8 @@ get a single-store staffing instruction.
 
 DECISION_RIGHTS = {
     "CEO / Executive": ["Promotion", "Pricing", "Peak-hour staffing", "Supplier expediting"],
-    "CFO / Finance": ["Pricing", "Promotion"],
     "Regional Manager": ["Peak-hour staffing", "Supplier expediting", "Promotion"],
     "Store Manager": ["Peak-hour staffing", "Supplier expediting"],
-    "Operations Manager": ["Peak-hour staffing", "Supplier expediting"],
-    "Marketing Manager": ["Promotion", "Pricing"],
-    "Business Analyst": ["Peak-hour staffing", "Supplier expediting", "Promotion", "Pricing"],
 }
 
 

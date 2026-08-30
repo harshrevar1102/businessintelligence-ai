@@ -23,16 +23,26 @@ def allowed_cities(persona):
 def allowed_locations(persona):
     """Returns the list of selectable location labels for the location dropdown."""
     ent = get_entitlement(persona)
+
+    # Store-pinned persona: single location only
     if ent["store"] is not None:
-        city = ent["cities"][0]
+        city = ent["cities"][0] if ent.get("cities") else list(STORES.keys())[0]
         return [f"{city} - {ent['store']}"]
 
     cities = allowed_cities(persona)
-    options = ["All India"] if ent["cities"] is None else []
+    show_all_india = ent.get("show_all_india", True)
+    show_cities = ent.get("show_cities", True)
+
+    options = []
+    if show_all_india and ent["cities"] is None:
+        options.append("All India")
+
     for city in cities:
-        options.append(city)
+        if show_cities:
+            options.append(city)
         for store in STORES.get(city, []):
             options.append(f"{city} - {store}")
+
     return options
 
 

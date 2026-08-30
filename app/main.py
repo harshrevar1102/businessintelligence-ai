@@ -561,6 +561,8 @@ with st.sidebar:
 
 if "persona" not in st.session_state:
     st.session_state.persona = "CEO / Executive"
+if "_prev_persona" not in st.session_state:
+    st.session_state._prev_persona = st.session_state.persona
 
 # Topbar with title, subtitle, and selectors
 top_left, top_r1, top_r2 = st.columns([2.5, 1.2, 1.2])
@@ -574,14 +576,24 @@ with top_left:
 with top_r1:
     persona = st.selectbox("Active Persona", PERSONAS, key="persona")
 
+# We don't need the manual session state reset for location anymore if we scope the key to the persona.
+# But we'll keep the _prev_persona check just in case we need to trigger a hard rerun on persona change.
+if persona != st.session_state._prev_persona:
+    st.session_state._prev_persona = persona
+    st.rerun()
+
 with top_r2:
     location_options = allowed_locations(persona)
-    default_location = enforce_default_location(persona, st.session_state.get("location", location_options[0]))
+    
+    # Scope the session state key to the persona so switching personas creates a fresh selectbox
+    loc_key = f"location_{persona}"
+    
+    default_location = enforce_default_location(persona, st.session_state.get(loc_key, location_options[0]))
     location_label = st.selectbox(
         "Location / Branch",
         location_options,
         index=location_options.index(default_location),
-        key="location",
+        key=loc_key,
     )
 
 st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)

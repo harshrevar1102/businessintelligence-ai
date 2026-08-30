@@ -3,12 +3,12 @@ import pandas as pd
 import streamlit as st
 
 from app.components.ui_helpers import section_header
-from app.llm.ollama_client import is_available
+from app.llm.openai_client import is_available
 from app.telemetry.telemetry import get_events
 
 
 def render(datasets, persona, location_label):
-    section_header("Inference Server Status", "Health check for local Ollama LLM / embedding engine.")
+    section_header("Inference Server Status", "Health check for OpenAI LLM / embedding engine.")
     available = is_available()
     if available:
         st.markdown(
@@ -16,8 +16,8 @@ def render(datasets, persona, location_label):
 <div class="bi-alert bi-alert-info">
 <div class="bi-alert-icon">⚡</div>
 <div>
-<div class="bi-alert-title">Ollama Server Online</div>
-<div class="bi-alert-body">Local LLM & embedding endpoints are active and responding.</div>
+<div class="bi-alert-title">OpenAI API Online</div>
+<div class="bi-alert-body">LLM & embedding endpoints are active and responding.</div>
 </div>
 </div>
 """).strip(),
@@ -29,8 +29,8 @@ def render(datasets, persona, location_label):
 <div class="bi-alert bi-alert-critical">
 <div class="bi-alert-icon">ℹ️</div>
 <div>
-<div class="bi-alert-title">Ollama Server Offline (Fallback Active)</div>
-<div class="bi-alert-body">Narrative synthesis is using high-performance local deterministic template fallback. See README for Ollama setup.</div>
+<div class="bi-alert-title">OpenAI API Offline (Fallback Active)</div>
+<div class="bi-alert-body">Narrative synthesis is using high-performance local deterministic template fallback. Check your API key.</div>
 </div>
 </div>
 """).strip(),
@@ -80,9 +80,9 @@ def render(datasets, persona, location_label):
     with c3:
         c3_html = textwrap.dedent(f"""
 <div class="bi-card">
-<div class="bi-label">Simulated Cost</div>
+<div class="bi-label">Estimated Cost</div>
 <div class="bi-value" style="color:#16a34a;">${df['estimated_cost_usd'].sum():.4f}</div>
-<div style="font-size:11.5px;color:#475569;">Nominal cloud equivalent</div>
+<div style="font-size:11.5px;color:#475569;">Calculated API Cost</div>
 </div>
 """).strip()
         st.markdown(c3_html, unsafe_allow_html=True)
@@ -101,9 +101,3 @@ def render(datasets, persona, location_label):
     with st.container(border=True):
         st.dataframe(df, use_container_width=True, hide_index=True)
 
-    st.markdown(
-        '<div style="font-size:12px;color:#64748b;margin-top:10px;">'
-        'Estimated cost is a nominal figure for demonstrating operational cost governance — actual local Ollama inference has zero marginal API cost.'
-        '</div>',
-        unsafe_allow_html=True,
-    )
