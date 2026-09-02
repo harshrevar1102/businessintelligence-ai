@@ -30,10 +30,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-03,Delhi,Saket,Cappuccino,90,48,18,120,False
 2026-04-03,Delhi,Saket,Chai Frappe,64,50,48,66,False
 2026-04-03,Mumbai,Bandra,House Latte,74,52,48,78,False
-2026-04-03,Mumbai,Bandra,Cold Brew,70,55,26,99,False
 2026-04-03,Mumbai,Bandra,Breakfast Combo,59,47,40,66,False
 2026-04-03,Mumbai,Bandra,Cappuccino,51,53,22,82,False
-2026-04-03,Mumbai,Bandra,Chai Frappe,104,20,46,78,False
 2026-04-03,Mumbai,Andheri,House Latte,102,51,41,112,False
 2026-04-03,Mumbai,Andheri,Cold Brew,77,48,26,99,False
 2026-04-03,Mumbai,Andheri,Breakfast Combo,102,42,33,111,False
@@ -92,7 +90,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-04,Mumbai,Bandra,House Latte,63,20,21,62,False
 2026-04-04,Mumbai,Bandra,Cold Brew,116,36,34,118,False
 2026-04-04,Mumbai,Bandra,Breakfast Combo,77,51,17,111,False
-2026-04-04,Mumbai,Bandra,Cappuccino,46,31,34,43,False
 2026-04-04,Mumbai,Bandra,Chai Frappe,93,39,32,100,False
 2026-04-04,Mumbai,Andheri,House Latte,115,26,37,104,False
 2026-04-04,Mumbai,Andheri,Cold Brew,83,38,47,74,False
@@ -151,9 +148,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-05,Delhi,Saket,Chai Frappe,116,40,26,130,False
 2026-04-05,Mumbai,Bandra,House Latte,116,56,34,138,False
 2026-04-05,Mumbai,Bandra,Cold Brew,41,43,37,47,False
-2026-04-05,Mumbai,Bandra,Breakfast Combo,51,45,48,48,False
-2026-04-05,Mumbai,Bandra,Cappuccino,48,48,20,76,False
-2026-04-05,Mumbai,Bandra,Chai Frappe,99,36,15,120,False
 2026-04-05,Mumbai,Andheri,House Latte,117,26,38,105,False
 2026-04-05,Mumbai,Andheri,Cold Brew,54,57,44,67,False
 2026-04-05,Mumbai,Andheri,Breakfast Combo,104,37,33,108,False
@@ -269,8 +263,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-07,Delhi,Saket,Breakfast Combo,64,40,51,53,False
 2026-04-07,Delhi,Saket,Cappuccino,99,51,36,114,False
 2026-04-07,Delhi,Saket,Chai Frappe,48,35,54,29,False
-2026-04-07,Mumbai,Bandra,House Latte,43,55,42,56,False
-2026-04-07,Mumbai,Bandra,Cold Brew,62,51,48,65,False
 2026-04-07,Mumbai,Bandra,Breakfast Combo,43,24,41,26,False
 2026-04-07,Mumbai,Bandra,Cappuccino,119,20,41,98,False
 2026-04-07,Mumbai,Bandra,Chai Frappe,50,46,39,57,False
@@ -331,8 +323,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-08,Delhi,Saket,Chai Frappe,65,29,46,48,False
 2026-04-08,Mumbai,Bandra,House Latte,67,41,22,86,False
 2026-04-08,Mumbai,Bandra,Cold Brew,74,41,40,75,False
-2026-04-08,Mumbai,Bandra,Breakfast Combo,82,34,53,63,False
-2026-04-08,Mumbai,Bandra,Cappuccino,81,52,44,89,False
 2026-04-08,Mumbai,Bandra,Chai Frappe,84,55,20,119,False
 2026-04-08,Mumbai,Andheri,House Latte,113,54,35,132,False
 2026-04-08,Mumbai,Andheri,Cold Brew,98,40,25,113,False
@@ -391,9 +381,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-09,Delhi,Saket,Chai Frappe,71,59,51,79,False
 2026-04-09,Mumbai,Bandra,House Latte,90,45,30,105,False
 2026-04-09,Mumbai,Bandra,Cold Brew,54,20,28,46,False
-2026-04-09,Mumbai,Bandra,Breakfast Combo,65,27,25,67,False
 2026-04-09,Mumbai,Bandra,Cappuccino,41,44,52,33,False
-2026-04-09,Mumbai,Bandra,Chai Frappe,95,37,31,101,False
 2026-04-09,Mumbai,Andheri,House Latte,64,25,38,51,False
 2026-04-09,Mumbai,Andheri,Cold Brew,85,20,31,74,False
 2026-04-09,Mumbai,Andheri,Breakfast Combo,62,26,43,45,False
@@ -449,10 +437,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-10,Delhi,Saket,Breakfast Combo,50,24,37,37,False
 2026-04-10,Delhi,Saket,Cappuccino,54,59,49,64,False
 2026-04-10,Delhi,Saket,Chai Frappe,96,49,38,107,False
-2026-04-10,Mumbai,Bandra,House Latte,44,35,34,45,False
-2026-04-10,Mumbai,Bandra,Cold Brew,113,28,34,107,False
 2026-04-10,Mumbai,Bandra,Breakfast Combo,67,25,19,73,False
-2026-04-10,Mumbai,Bandra,Cappuccino,69,23,17,75,False
 2026-04-10,Mumbai,Bandra,Chai Frappe,68,28,37,59,False
 2026-04-10,Mumbai,Andheri,House Latte,41,32,33,40,False
 2026-04-10,Mumbai,Andheri,Cold Brew,117,45,50,112,False
@@ -509,11 +494,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-11,Delhi,Saket,Breakfast Combo,96,27,21,102,False
 2026-04-11,Delhi,Saket,Cappuccino,88,21,27,82,False
 2026-04-11,Delhi,Saket,Chai Frappe,51,20,51,20,False
-2026-04-11,Mumbai,Bandra,House Latte,47,20,52,15,False
-2026-04-11,Mumbai,Bandra,Cold Brew,55,52,16,91,False
 2026-04-11,Mumbai,Bandra,Breakfast Combo,52,24,43,33,False
-2026-04-11,Mumbai,Bandra,Cappuccino,89,39,24,104,False
-2026-04-11,Mumbai,Bandra,Chai Frappe,47,42,24,65,False
 2026-04-11,Mumbai,Andheri,House Latte,87,47,48,86,False
 2026-04-11,Mumbai,Andheri,Cold Brew,79,20,26,73,False
 2026-04-11,Mumbai,Andheri,Breakfast Combo,108,41,39,110,False
@@ -571,7 +552,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-12,Delhi,Saket,Chai Frappe,113,29,23,119,False
 2026-04-12,Mumbai,Bandra,House Latte,67,38,50,55,False
 2026-04-12,Mumbai,Bandra,Cold Brew,98,45,50,93,False
-2026-04-12,Mumbai,Bandra,Breakfast Combo,91,35,31,95,False
 2026-04-12,Mumbai,Bandra,Cappuccino,81,23,44,60,False
 2026-04-12,Mumbai,Bandra,Chai Frappe,92,49,36,105,False
 2026-04-12,Mumbai,Andheri,House Latte,102,57,37,122,False
@@ -630,9 +610,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-13,Delhi,Saket,Cappuccino,89,27,41,75,False
 2026-04-13,Delhi,Saket,Chai Frappe,73,22,32,63,False
 2026-04-13,Mumbai,Bandra,House Latte,54,29,50,33,False
-2026-04-13,Mumbai,Bandra,Cold Brew,96,25,49,72,False
-2026-04-13,Mumbai,Bandra,Breakfast Combo,85,54,44,95,False
-2026-04-13,Mumbai,Bandra,Cappuccino,67,41,36,72,False
 2026-04-13,Mumbai,Bandra,Chai Frappe,97,29,28,98,False
 2026-04-13,Mumbai,Andheri,House Latte,59,31,21,69,False
 2026-04-13,Mumbai,Andheri,Cold Brew,42,57,17,82,False
@@ -692,8 +669,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-14,Mumbai,Bandra,House Latte,55,45,31,69,False
 2026-04-14,Mumbai,Bandra,Cold Brew,67,47,31,83,False
 2026-04-14,Mumbai,Bandra,Breakfast Combo,77,37,25,89,False
-2026-04-14,Mumbai,Bandra,Cappuccino,50,53,18,85,False
-2026-04-14,Mumbai,Bandra,Chai Frappe,65,46,20,91,False
 2026-04-14,Mumbai,Andheri,House Latte,92,49,41,100,False
 2026-04-14,Mumbai,Andheri,Cold Brew,64,20,50,34,False
 2026-04-14,Mumbai,Andheri,Breakfast Combo,66,52,22,96,False
@@ -750,10 +725,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-15,Delhi,Saket,Cappuccino,96,53,38,111,False
 2026-04-15,Delhi,Saket,Chai Frappe,54,26,31,49,False
 2026-04-15,Mumbai,Bandra,House Latte,80,42,24,98,False
-2026-04-15,Mumbai,Bandra,Cold Brew,80,31,42,69,False
-2026-04-15,Mumbai,Bandra,Breakfast Combo,103,46,15,134,False
 2026-04-15,Mumbai,Bandra,Cappuccino,119,20,54,85,False
-2026-04-15,Mumbai,Bandra,Chai Frappe,42,40,19,63,False
 2026-04-15,Mumbai,Andheri,House Latte,47,47,44,50,False
 2026-04-15,Mumbai,Andheri,Cold Brew,49,59,27,81,False
 2026-04-15,Mumbai,Andheri,Breakfast Combo,65,31,33,63,False
@@ -809,9 +781,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-16,Delhi,Saket,Breakfast Combo,100,24,48,76,False
 2026-04-16,Delhi,Saket,Cappuccino,67,42,21,88,False
 2026-04-16,Delhi,Saket,Chai Frappe,70,50,25,95,False
-2026-04-16,Mumbai,Bandra,House Latte,50,40,21,69,False
 2026-04-16,Mumbai,Bandra,Cold Brew,65,38,37,66,False
-2026-04-16,Mumbai,Bandra,Breakfast Combo,91,47,48,90,False
 2026-04-16,Mumbai,Bandra,Cappuccino,45,34,15,64,False
 2026-04-16,Mumbai,Bandra,Chai Frappe,40,28,38,30,False
 2026-04-16,Mumbai,Andheri,House Latte,111,50,40,121,False
@@ -870,10 +840,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-17,Delhi,Saket,Cappuccino,100,50,36,114,False
 2026-04-17,Delhi,Saket,Chai Frappe,60,41,48,53,False
 2026-04-17,Mumbai,Bandra,House Latte,117,57,22,152,False
-2026-04-17,Mumbai,Bandra,Cold Brew,87,24,41,70,False
 2026-04-17,Mumbai,Bandra,Breakfast Combo,119,22,41,100,False
 2026-04-17,Mumbai,Bandra,Cappuccino,115,53,30,138,False
-2026-04-17,Mumbai,Bandra,Chai Frappe,48,56,51,53,False
 2026-04-17,Mumbai,Andheri,House Latte,86,59,15,130,False
 2026-04-17,Mumbai,Andheri,Cold Brew,89,21,52,58,False
 2026-04-17,Mumbai,Andheri,Breakfast Combo,94,56,37,113,False
@@ -989,7 +957,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-19,Delhi,Saket,Breakfast Combo,73,58,17,114,False
 2026-04-19,Delhi,Saket,Cappuccino,98,43,24,117,False
 2026-04-19,Delhi,Saket,Chai Frappe,58,48,40,66,False
-2026-04-19,Mumbai,Bandra,House Latte,88,22,38,72,False
 2026-04-19,Mumbai,Bandra,Cold Brew,118,20,33,105,False
 2026-04-19,Mumbai,Bandra,Breakfast Combo,79,55,26,108,False
 2026-04-19,Mumbai,Bandra,Cappuccino,78,48,17,109,False
@@ -1049,9 +1016,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-20,Delhi,Saket,Breakfast Combo,72,38,37,73,False
 2026-04-20,Delhi,Saket,Cappuccino,101,42,40,103,False
 2026-04-20,Delhi,Saket,Chai Frappe,106,59,19,146,False
-2026-04-20,Mumbai,Bandra,House Latte,97,29,22,104,False
 2026-04-20,Mumbai,Bandra,Cold Brew,103,22,48,77,False
-2026-04-20,Mumbai,Bandra,Breakfast Combo,101,59,41,119,False
 2026-04-20,Mumbai,Bandra,Cappuccino,109,24,50,83,False
 2026-04-20,Mumbai,Bandra,Chai Frappe,52,32,20,64,False
 2026-04-20,Mumbai,Andheri,House Latte,72,49,25,96,False
@@ -1110,7 +1075,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-21,Delhi,Saket,Cappuccino,74,51,21,104,False
 2026-04-21,Delhi,Saket,Chai Frappe,56,35,51,40,False
 2026-04-21,Mumbai,Bandra,House Latte,89,54,24,119,False
-2026-04-21,Mumbai,Bandra,Cold Brew,107,22,24,105,False
 2026-04-21,Mumbai,Bandra,Breakfast Combo,81,22,49,54,False
 2026-04-21,Mumbai,Bandra,Cappuccino,109,41,27,123,False
 2026-04-21,Mumbai,Bandra,Chai Frappe,47,44,36,55,False
@@ -1169,11 +1133,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-22,Delhi,Saket,Breakfast Combo,91,32,23,100,False
 2026-04-22,Delhi,Saket,Cappuccino,41,55,48,48,False
 2026-04-22,Delhi,Saket,Chai Frappe,104,22,28,98,False
-2026-04-22,Mumbai,Bandra,House Latte,117,43,20,140,False
-2026-04-22,Mumbai,Bandra,Cold Brew,51,30,53,28,False
-2026-04-22,Mumbai,Bandra,Breakfast Combo,53,56,42,67,False
-2026-04-22,Mumbai,Bandra,Cappuccino,113,53,28,138,False
-2026-04-22,Mumbai,Bandra,Chai Frappe,106,26,26,106,False
 2026-04-22,Mumbai,Andheri,House Latte,56,25,18,63,False
 2026-04-22,Mumbai,Andheri,Cold Brew,54,24,30,48,False
 2026-04-22,Mumbai,Andheri,Breakfast Combo,45,22,54,13,False
@@ -1229,10 +1188,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-23,Delhi,Saket,Breakfast Combo,42,28,37,33,False
 2026-04-23,Delhi,Saket,Cappuccino,118,26,19,125,False
 2026-04-23,Delhi,Saket,Chai Frappe,115,58,21,152,False
-2026-04-23,Mumbai,Bandra,House Latte,72,45,22,95,False
 2026-04-23,Mumbai,Bandra,Cold Brew,66,35,40,61,False
-2026-04-23,Mumbai,Bandra,Breakfast Combo,64,36,26,74,False
-2026-04-23,Mumbai,Bandra,Cappuccino,100,26,24,102,False
 2026-04-23,Mumbai,Bandra,Chai Frappe,59,56,52,63,False
 2026-04-23,Mumbai,Andheri,House Latte,80,26,45,61,False
 2026-04-23,Mumbai,Andheri,Cold Brew,79,53,29,103,False
@@ -1289,9 +1245,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-24,Delhi,Saket,Breakfast Combo,91,29,39,81,False
 2026-04-24,Delhi,Saket,Cappuccino,90,51,35,106,False
 2026-04-24,Delhi,Saket,Chai Frappe,104,28,43,89,False
-2026-04-24,Mumbai,Bandra,House Latte,43,24,49,18,False
-2026-04-24,Mumbai,Bandra,Cold Brew,78,44,39,83,False
-2026-04-24,Mumbai,Bandra,Breakfast Combo,95,29,22,102,False
 2026-04-24,Mumbai,Bandra,Cappuccino,43,54,23,74,False
 2026-04-24,Mumbai,Bandra,Chai Frappe,86,38,21,103,False
 2026-04-24,Mumbai,Andheri,House Latte,73,23,22,74,False
@@ -1350,8 +1303,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-25,Delhi,Saket,Cappuccino,73,20,33,60,False
 2026-04-25,Delhi,Saket,Chai Frappe,59,33,33,59,False
 2026-04-25,Mumbai,Bandra,House Latte,65,35,45,55,False
-2026-04-25,Mumbai,Bandra,Cold Brew,104,20,30,94,False
-2026-04-25,Mumbai,Bandra,Breakfast Combo,107,41,23,125,False
 2026-04-25,Mumbai,Bandra,Cappuccino,87,25,15,97,False
 2026-04-25,Mumbai,Bandra,Chai Frappe,90,40,45,85,False
 2026-04-25,Mumbai,Andheri,House Latte,67,54,31,90,False
@@ -1409,11 +1360,9 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-26,Delhi,Saket,Breakfast Combo,81,53,36,98,False
 2026-04-26,Delhi,Saket,Cappuccino,102,27,32,97,False
 2026-04-26,Delhi,Saket,Chai Frappe,89,33,15,107,False
-2026-04-26,Mumbai,Bandra,House Latte,45,57,39,63,False
 2026-04-26,Mumbai,Bandra,Cold Brew,61,30,16,75,False
 2026-04-26,Mumbai,Bandra,Breakfast Combo,115,24,45,94,False
 2026-04-26,Mumbai,Bandra,Cappuccino,59,33,25,67,False
-2026-04-26,Mumbai,Bandra,Chai Frappe,105,21,29,97,False
 2026-04-26,Mumbai,Andheri,House Latte,62,30,22,70,False
 2026-04-26,Mumbai,Andheri,Cold Brew,112,35,31,116,False
 2026-04-26,Mumbai,Andheri,Breakfast Combo,70,59,28,101,False
@@ -1469,10 +1418,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-27,Delhi,Saket,Breakfast Combo,49,35,52,32,False
 2026-04-27,Delhi,Saket,Cappuccino,60,55,25,90,False
 2026-04-27,Delhi,Saket,Chai Frappe,54,30,27,57,False
-2026-04-27,Mumbai,Bandra,House Latte,49,43,28,64,False
-2026-04-27,Mumbai,Bandra,Cold Brew,97,39,32,104,False
-2026-04-27,Mumbai,Bandra,Breakfast Combo,77,26,43,60,False
-2026-04-27,Mumbai,Bandra,Cappuccino,48,48,54,42,False
 2026-04-27,Mumbai,Bandra,Chai Frappe,101,38,27,112,False
 2026-04-27,Mumbai,Andheri,House Latte,109,30,34,105,False
 2026-04-27,Mumbai,Andheri,Cold Brew,101,56,51,106,False
@@ -1529,11 +1474,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-28,Delhi,Saket,Breakfast Combo,117,26,43,100,False
 2026-04-28,Delhi,Saket,Cappuccino,86,44,23,107,False
 2026-04-28,Delhi,Saket,Chai Frappe,64,44,26,82,False
-2026-04-28,Mumbai,Bandra,House Latte,95,21,17,99,False
 2026-04-28,Mumbai,Bandra,Cold Brew,98,44,16,126,False
-2026-04-28,Mumbai,Bandra,Breakfast Combo,111,20,53,78,False
-2026-04-28,Mumbai,Bandra,Cappuccino,98,59,52,105,False
-2026-04-28,Mumbai,Bandra,Chai Frappe,65,50,23,92,False
 2026-04-28,Mumbai,Andheri,House Latte,77,29,34,72,False
 2026-04-28,Mumbai,Andheri,Cold Brew,109,37,18,128,False
 2026-04-28,Mumbai,Andheri,Breakfast Combo,65,51,35,81,False
@@ -1589,11 +1530,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-29,Delhi,Saket,Breakfast Combo,107,23,24,106,False
 2026-04-29,Delhi,Saket,Cappuccino,74,26,37,63,False
 2026-04-29,Delhi,Saket,Chai Frappe,40,24,16,48,False
-2026-04-29,Mumbai,Bandra,House Latte,63,50,22,91,False
 2026-04-29,Mumbai,Bandra,Cold Brew,118,30,16,132,False
 2026-04-29,Mumbai,Bandra,Breakfast Combo,66,49,19,96,False
-2026-04-29,Mumbai,Bandra,Cappuccino,45,53,38,60,False
-2026-04-29,Mumbai,Bandra,Chai Frappe,67,50,48,69,False
 2026-04-29,Mumbai,Andheri,House Latte,68,42,15,95,False
 2026-04-29,Mumbai,Andheri,Cold Brew,64,43,22,85,False
 2026-04-29,Mumbai,Andheri,Breakfast Combo,119,58,25,152,False
@@ -1650,10 +1588,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-04-30,Delhi,Saket,Cappuccino,42,48,29,61,False
 2026-04-30,Delhi,Saket,Chai Frappe,81,30,29,82,False
 2026-04-30,Mumbai,Bandra,House Latte,66,22,46,42,False
-2026-04-30,Mumbai,Bandra,Cold Brew,51,35,22,64,False
 2026-04-30,Mumbai,Bandra,Breakfast Combo,52,34,51,35,False
-2026-04-30,Mumbai,Bandra,Cappuccino,115,35,35,115,False
-2026-04-30,Mumbai,Bandra,Chai Frappe,118,29,52,95,False
 2026-04-30,Mumbai,Andheri,House Latte,48,29,28,49,False
 2026-04-30,Mumbai,Andheri,Cold Brew,42,52,49,45,False
 2026-04-30,Mumbai,Andheri,Breakfast Combo,70,53,45,78,False
@@ -1711,8 +1646,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-01,Delhi,Saket,Chai Frappe,81,47,39,89,False
 2026-05-01,Mumbai,Bandra,House Latte,65,35,34,66,False
 2026-05-01,Mumbai,Bandra,Cold Brew,43,49,18,74,False
-2026-05-01,Mumbai,Bandra,Breakfast Combo,76,46,18,104,False
-2026-05-01,Mumbai,Bandra,Cappuccino,119,35,15,139,False
 2026-05-01,Mumbai,Bandra,Chai Frappe,92,42,40,94,False
 2026-05-01,Mumbai,Andheri,House Latte,100,39,48,91,False
 2026-05-01,Mumbai,Andheri,Cold Brew,69,41,21,89,False
@@ -1770,8 +1703,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-02,Delhi,Saket,Cappuccino,58,52,30,80,False
 2026-05-02,Delhi,Saket,Chai Frappe,99,22,33,88,False
 2026-05-02,Mumbai,Bandra,House Latte,112,57,23,146,False
-2026-05-02,Mumbai,Bandra,Cold Brew,71,36,37,70,False
-2026-05-02,Mumbai,Bandra,Breakfast Combo,82,24,45,61,False
 2026-05-02,Mumbai,Bandra,Cappuccino,58,32,48,42,False
 2026-05-02,Mumbai,Bandra,Chai Frappe,95,35,51,79,False
 2026-05-02,Mumbai,Andheri,House Latte,71,42,24,89,False
@@ -1829,9 +1760,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-03,Delhi,Saket,Breakfast Combo,47,32,48,31,False
 2026-05-03,Delhi,Saket,Cappuccino,82,26,23,85,False
 2026-05-03,Delhi,Saket,Chai Frappe,101,54,29,126,False
-2026-05-03,Mumbai,Bandra,House Latte,77,51,22,106,False
-2026-05-03,Mumbai,Bandra,Cold Brew,56,50,22,84,False
-2026-05-03,Mumbai,Bandra,Breakfast Combo,101,39,54,86,False
 2026-05-03,Mumbai,Bandra,Cappuccino,42,57,24,75,False
 2026-05-03,Mumbai,Bandra,Chai Frappe,42,48,36,54,False
 2026-05-03,Mumbai,Andheri,House Latte,106,24,18,112,False
@@ -1890,10 +1818,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-04,Delhi,Saket,Cappuccino,83,38,23,98,False
 2026-05-04,Delhi,Saket,Chai Frappe,106,50,42,114,False
 2026-05-04,Mumbai,Bandra,House Latte,68,45,53,60,False
-2026-05-04,Mumbai,Bandra,Cold Brew,91,39,25,105,False
 2026-05-04,Mumbai,Bandra,Breakfast Combo,81,34,39,76,False
 2026-05-04,Mumbai,Bandra,Cappuccino,43,27,46,24,False
-2026-05-04,Mumbai,Bandra,Chai Frappe,70,37,36,71,False
 2026-05-04,Mumbai,Andheri,House Latte,75,50,24,101,False
 2026-05-04,Mumbai,Andheri,Cold Brew,100,28,29,99,False
 2026-05-04,Mumbai,Andheri,Breakfast Combo,87,55,24,118,False
@@ -1949,11 +1875,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-05,Delhi,Saket,Breakfast Combo,119,42,15,146,False
 2026-05-05,Delhi,Saket,Cappuccino,109,26,19,116,False
 2026-05-05,Delhi,Saket,Chai Frappe,93,44,17,120,False
-2026-05-05,Mumbai,Bandra,House Latte,53,43,25,71,False
-2026-05-05,Mumbai,Bandra,Cold Brew,94,36,38,92,False
-2026-05-05,Mumbai,Bandra,Breakfast Combo,77,34,28,83,False
 2026-05-05,Mumbai,Bandra,Cappuccino,95,40,38,97,False
-2026-05-05,Mumbai,Bandra,Chai Frappe,86,28,51,63,False
 2026-05-05,Mumbai,Andheri,House Latte,85,48,50,83,False
 2026-05-05,Mumbai,Andheri,Cold Brew,113,46,46,113,False
 2026-05-05,Mumbai,Andheri,Breakfast Combo,77,49,27,99,False
@@ -2010,10 +1932,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-06,Delhi,Saket,Cappuccino,79,50,32,97,False
 2026-05-06,Delhi,Saket,Chai Frappe,95,41,26,110,False
 2026-05-06,Mumbai,Bandra,House Latte,110,48,45,113,False
-2026-05-06,Mumbai,Bandra,Cold Brew,115,29,18,126,False
 2026-05-06,Mumbai,Bandra,Breakfast Combo,86,33,32,87,False
-2026-05-06,Mumbai,Bandra,Cappuccino,58,35,30,63,False
-2026-05-06,Mumbai,Bandra,Chai Frappe,68,49,38,79,False
 2026-05-06,Mumbai,Andheri,House Latte,77,24,37,64,False
 2026-05-06,Mumbai,Andheri,Cold Brew,54,32,31,55,False
 2026-05-06,Mumbai,Andheri,Breakfast Combo,51,35,25,61,False
@@ -2069,8 +1988,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-07,Delhi,Saket,Breakfast Combo,116,28,22,122,False
 2026-05-07,Delhi,Saket,Cappuccino,44,58,43,59,False
 2026-05-07,Delhi,Saket,Chai Frappe,100,31,40,91,False
-2026-05-07,Mumbai,Bandra,House Latte,44,47,38,53,False
-2026-05-07,Mumbai,Bandra,Cold Brew,66,48,40,74,False
 2026-05-07,Mumbai,Bandra,Breakfast Combo,75,27,15,87,False
 2026-05-07,Mumbai,Bandra,Cappuccino,115,31,27,119,False
 2026-05-07,Mumbai,Bandra,Chai Frappe,94,30,30,94,False
@@ -2132,8 +2049,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-08,Mumbai,Bandra,House Latte,100,35,25,110,False
 2026-05-08,Mumbai,Bandra,Cold Brew,84,43,18,109,False
 2026-05-08,Mumbai,Bandra,Breakfast Combo,85,26,37,74,False
-2026-05-08,Mumbai,Bandra,Cappuccino,114,41,45,110,False
-2026-05-08,Mumbai,Bandra,Chai Frappe,64,56,47,73,False
 2026-05-08,Mumbai,Andheri,House Latte,113,49,40,122,False
 2026-05-08,Mumbai,Andheri,Cold Brew,82,57,48,91,False
 2026-05-08,Mumbai,Andheri,Breakfast Combo,73,23,15,81,False
@@ -2192,7 +2107,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-09,Mumbai,Bandra,House Latte,107,45,16,136,False
 2026-05-09,Mumbai,Bandra,Cold Brew,90,25,31,84,False
 2026-05-09,Mumbai,Bandra,Breakfast Combo,43,23,20,46,False
-2026-05-09,Mumbai,Bandra,Cappuccino,74,38,29,83,False
 2026-05-09,Mumbai,Bandra,Chai Frappe,89,48,44,93,False
 2026-05-09,Mumbai,Andheri,House Latte,86,41,34,93,False
 2026-05-09,Mumbai,Andheri,Cold Brew,59,39,15,83,False
@@ -2250,10 +2164,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-10,Delhi,Saket,Cappuccino,109,54,15,148,False
 2026-05-10,Delhi,Saket,Chai Frappe,53,34,35,52,False
 2026-05-10,Mumbai,Bandra,House Latte,98,36,39,95,False
-2026-05-10,Mumbai,Bandra,Cold Brew,40,46,51,35,False
-2026-05-10,Mumbai,Bandra,Breakfast Combo,82,38,26,94,False
 2026-05-10,Mumbai,Bandra,Cappuccino,116,21,26,111,False
-2026-05-10,Mumbai,Bandra,Chai Frappe,51,54,34,71,False
 2026-05-10,Mumbai,Andheri,House Latte,113,46,37,122,False
 2026-05-10,Mumbai,Andheri,Cold Brew,81,28,37,72,False
 2026-05-10,Mumbai,Andheri,Breakfast Combo,94,58,36,116,False
@@ -2310,10 +2221,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-11,Delhi,Saket,Cappuccino,67,20,30,57,False
 2026-05-11,Delhi,Saket,Chai Frappe,63,49,45,67,False
 2026-05-11,Mumbai,Bandra,House Latte,47,51,17,81,False
-2026-05-11,Mumbai,Bandra,Cold Brew,89,35,27,97,False
 2026-05-11,Mumbai,Bandra,Breakfast Combo,78,32,46,64,False
-2026-05-11,Mumbai,Bandra,Cappuccino,117,52,32,137,False
-2026-05-11,Mumbai,Bandra,Chai Frappe,80,37,46,71,False
 2026-05-11,Mumbai,Andheri,House Latte,84,38,31,91,False
 2026-05-11,Mumbai,Andheri,Cold Brew,70,42,42,70,False
 2026-05-11,Mumbai,Andheri,Breakfast Combo,74,52,48,78,False
@@ -2371,8 +2279,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-12,Delhi,Saket,Chai Frappe,81,31,26,86,False
 2026-05-12,Mumbai,Bandra,House Latte,43,51,52,42,False
 2026-05-12,Mumbai,Bandra,Cold Brew,79,41,52,68,False
-2026-05-12,Mumbai,Bandra,Breakfast Combo,80,44,32,92,False
-2026-05-12,Mumbai,Bandra,Cappuccino,81,40,43,78,False
 2026-05-12,Mumbai,Bandra,Chai Frappe,88,40,18,110,False
 2026-05-12,Mumbai,Andheri,House Latte,112,55,22,145,False
 2026-05-12,Mumbai,Andheri,Cold Brew,63,58,27,94,False
@@ -2429,9 +2335,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-13,Delhi,Saket,Breakfast Combo,62,48,16,94,False
 2026-05-13,Delhi,Saket,Cappuccino,49,52,41,60,False
 2026-05-13,Delhi,Saket,Chai Frappe,54,37,17,74,False
-2026-05-13,Mumbai,Bandra,House Latte,93,50,26,117,False
-2026-05-13,Mumbai,Bandra,Cold Brew,68,29,30,67,False
-2026-05-13,Mumbai,Bandra,Breakfast Combo,61,29,32,58,False
 2026-05-13,Mumbai,Bandra,Cappuccino,108,50,26,132,False
 2026-05-13,Mumbai,Bandra,Chai Frappe,115,28,51,92,False
 2026-05-13,Mumbai,Andheri,House Latte,64,41,23,82,False
@@ -2489,9 +2392,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-14,Delhi,Saket,Breakfast Combo,114,28,51,91,False
 2026-05-14,Delhi,Saket,Cappuccino,75,42,41,76,False
 2026-05-14,Delhi,Saket,Chai Frappe,86,56,21,121,False
-2026-05-14,Mumbai,Bandra,House Latte,98,58,23,133,False
-2026-05-14,Mumbai,Bandra,Cold Brew,60,39,43,56,False
-2026-05-14,Mumbai,Bandra,Breakfast Combo,116,51,46,121,False
 2026-05-14,Mumbai,Bandra,Cappuccino,75,45,23,97,False
 2026-05-14,Mumbai,Bandra,Chai Frappe,77,27,16,88,False
 2026-05-14,Mumbai,Andheri,House Latte,108,52,35,125,False
@@ -2552,8 +2452,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-15,Mumbai,Bandra,House Latte,69,41,26,84,False
 2026-05-15,Mumbai,Bandra,Cold Brew,61,25,28,58,False
 2026-05-15,Mumbai,Bandra,Breakfast Combo,104,57,40,121,False
-2026-05-15,Mumbai,Bandra,Cappuccino,89,44,34,99,False
-2026-05-15,Mumbai,Bandra,Chai Frappe,73,44,46,71,False
 2026-05-15,Mumbai,Andheri,House Latte,73,42,33,82,False
 2026-05-15,Mumbai,Andheri,Cold Brew,62,31,18,75,False
 2026-05-15,Mumbai,Andheri,Breakfast Combo,75,48,42,81,False
@@ -2609,11 +2507,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-16,Delhi,Saket,Breakfast Combo,80,21,33,68,False
 2026-05-16,Delhi,Saket,Cappuccino,105,54,26,133,False
 2026-05-16,Delhi,Saket,Chai Frappe,70,42,30,82,False
-2026-05-16,Mumbai,Bandra,House Latte,54,32,31,55,False
-2026-05-16,Mumbai,Bandra,Cold Brew,81,56,36,101,False
-2026-05-16,Mumbai,Bandra,Breakfast Combo,70,46,45,71,False
 2026-05-16,Mumbai,Bandra,Cappuccino,74,39,23,90,False
-2026-05-16,Mumbai,Bandra,Chai Frappe,109,54,21,142,False
 2026-05-16,Mumbai,Andheri,House Latte,67,30,51,46,False
 2026-05-16,Mumbai,Andheri,Cold Brew,45,28,27,46,False
 2026-05-16,Mumbai,Andheri,Breakfast Combo,84,29,36,77,False
@@ -2670,10 +2564,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-17,Delhi,Saket,Cappuccino,115,54,31,138,False
 2026-05-17,Delhi,Saket,Chai Frappe,59,32,36,55,False
 2026-05-17,Mumbai,Bandra,House Latte,85,27,17,95,False
-2026-05-17,Mumbai,Bandra,Cold Brew,79,51,21,109,False
 2026-05-17,Mumbai,Bandra,Breakfast Combo,72,26,24,74,False
-2026-05-17,Mumbai,Bandra,Cappuccino,88,31,25,94,False
-2026-05-17,Mumbai,Bandra,Chai Frappe,119,26,22,123,False
 2026-05-17,Mumbai,Andheri,House Latte,114,42,16,140,False
 2026-05-17,Mumbai,Andheri,Cold Brew,73,42,25,90,False
 2026-05-17,Mumbai,Andheri,Breakfast Combo,83,45,25,103,False
@@ -2730,7 +2621,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-18,Delhi,Saket,Cappuccino,85,53,32,106,False
 2026-05-18,Delhi,Saket,Chai Frappe,54,26,23,57,False
 2026-05-18,Mumbai,Bandra,House Latte,56,32,23,65,False
-2026-05-18,Mumbai,Bandra,Cold Brew,87,25,39,73,False
 2026-05-18,Mumbai,Bandra,Breakfast Combo,66,47,35,78,False
 2026-05-18,Mumbai,Bandra,Cappuccino,112,37,26,123,False
 2026-05-18,Mumbai,Bandra,Chai Frappe,87,46,32,101,False
@@ -2789,10 +2679,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-19,Delhi,Saket,Breakfast Combo,98,50,20,128,False
 2026-05-19,Delhi,Saket,Cappuccino,110,47,28,129,False
 2026-05-19,Delhi,Saket,Chai Frappe,78,39,51,66,False
-2026-05-19,Mumbai,Bandra,House Latte,117,52,41,128,False
 2026-05-19,Mumbai,Bandra,Cold Brew,48,56,20,84,False
-2026-05-19,Mumbai,Bandra,Breakfast Combo,53,22,52,23,False
-2026-05-19,Mumbai,Bandra,Cappuccino,79,29,18,90,False
 2026-05-19,Mumbai,Bandra,Chai Frappe,72,48,54,66,False
 2026-05-19,Mumbai,Andheri,House Latte,84,44,48,80,False
 2026-05-19,Mumbai,Andheri,Cold Brew,112,31,54,89,False
@@ -2850,10 +2737,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-20,Delhi,Saket,Cappuccino,50,52,43,59,False
 2026-05-20,Delhi,Saket,Chai Frappe,108,23,23,108,False
 2026-05-20,Mumbai,Bandra,House Latte,110,21,35,96,False
-2026-05-20,Mumbai,Bandra,Cold Brew,72,57,49,80,False
 2026-05-20,Mumbai,Bandra,Breakfast Combo,111,31,38,104,False
 2026-05-20,Mumbai,Bandra,Cappuccino,96,58,15,139,False
-2026-05-20,Mumbai,Bandra,Chai Frappe,118,34,20,132,False
 2026-05-20,Mumbai,Andheri,House Latte,89,51,20,120,False
 2026-05-20,Mumbai,Andheri,Cold Brew,43,55,52,46,False
 2026-05-20,Mumbai,Andheri,Breakfast Combo,52,56,51,57,False
@@ -2909,10 +2794,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-21,Delhi,Saket,Breakfast Combo,59,50,36,73,False
 2026-05-21,Delhi,Saket,Cappuccino,114,46,50,110,False
 2026-05-21,Delhi,Saket,Chai Frappe,118,59,44,133,False
-2026-05-21,Mumbai,Bandra,House Latte,87,24,30,81,False
-2026-05-21,Mumbai,Bandra,Cold Brew,78,51,38,91,False
-2026-05-21,Mumbai,Bandra,Breakfast Combo,75,25,43,57,False
-2026-05-21,Mumbai,Bandra,Cappuccino,74,21,26,69,False
 2026-05-21,Mumbai,Bandra,Chai Frappe,110,24,31,103,False
 2026-05-21,Mumbai,Andheri,House Latte,80,23,21,82,False
 2026-05-21,Mumbai,Andheri,Cold Brew,115,43,23,135,False
@@ -2970,7 +2851,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-22,Delhi,Saket,Cappuccino,88,46,50,84,False
 2026-05-22,Delhi,Saket,Chai Frappe,92,33,36,89,False
 2026-05-22,Mumbai,Bandra,House Latte,58,33,42,49,False
-2026-05-22,Mumbai,Bandra,Cold Brew,51,46,38,59,False
 2026-05-22,Mumbai,Bandra,Breakfast Combo,64,21,43,42,False
 2026-05-22,Mumbai,Bandra,Cappuccino,105,49,31,123,False
 2026-05-22,Mumbai,Bandra,Chai Frappe,92,36,29,99,False
@@ -3030,10 +2910,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-23,Delhi,Saket,Cappuccino,73,59,42,90,False
 2026-05-23,Delhi,Saket,Chai Frappe,79,25,29,75,False
 2026-05-23,Mumbai,Bandra,House Latte,81,30,43,68,False
-2026-05-23,Mumbai,Bandra,Cold Brew,118,28,25,121,False
-2026-05-23,Mumbai,Bandra,Breakfast Combo,50,49,33,66,False
-2026-05-23,Mumbai,Bandra,Cappuccino,62,28,17,73,False
-2026-05-23,Mumbai,Bandra,Chai Frappe,78,47,24,101,False
 2026-05-23,Mumbai,Andheri,House Latte,40,38,42,36,False
 2026-05-23,Mumbai,Andheri,Cold Brew,67,30,21,76,False
 2026-05-23,Mumbai,Andheri,Breakfast Combo,99,54,45,108,False
@@ -3090,9 +2966,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-24,Delhi,Saket,Cappuccino,89,33,36,86,False
 2026-05-24,Delhi,Saket,Chai Frappe,61,48,40,69,False
 2026-05-24,Mumbai,Bandra,House Latte,116,22,49,89,False
-2026-05-24,Mumbai,Bandra,Cold Brew,67,22,42,47,False
 2026-05-24,Mumbai,Bandra,Breakfast Combo,53,27,54,26,False
-2026-05-24,Mumbai,Bandra,Cappuccino,57,41,23,75,False
 2026-05-24,Mumbai,Bandra,Chai Frappe,49,20,15,54,False
 2026-05-24,Mumbai,Andheri,House Latte,77,37,16,98,False
 2026-05-24,Mumbai,Andheri,Cold Brew,67,30,37,60,False
@@ -3149,9 +3023,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-25,Delhi,Saket,Breakfast Combo,75,27,36,66,False
 2026-05-25,Delhi,Saket,Cappuccino,99,30,53,76,False
 2026-05-25,Delhi,Saket,Chai Frappe,88,50,17,121,False
-2026-05-25,Mumbai,Bandra,House Latte,101,33,43,91,False
 2026-05-25,Mumbai,Bandra,Cold Brew,104,30,25,109,False
-2026-05-25,Mumbai,Bandra,Breakfast Combo,44,44,45,43,False
 2026-05-25,Mumbai,Bandra,Cappuccino,72,26,27,71,False
 2026-05-25,Mumbai,Bandra,Chai Frappe,72,56,19,109,False
 2026-05-25,Mumbai,Andheri,House Latte,67,45,24,88,False
@@ -3210,10 +3082,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-26,Delhi,Saket,Cappuccino,109,40,30,119,False
 2026-05-26,Delhi,Saket,Chai Frappe,115,46,32,129,False
 2026-05-26,Mumbai,Bandra,House Latte,42,20,23,39,False
-2026-05-26,Mumbai,Bandra,Cold Brew,58,48,35,71,False
-2026-05-26,Mumbai,Bandra,Breakfast Combo,119,41,51,109,False
 2026-05-26,Mumbai,Bandra,Cappuccino,84,34,43,75,False
-2026-05-26,Mumbai,Bandra,Chai Frappe,75,30,33,72,False
 2026-05-26,Mumbai,Andheri,House Latte,93,35,43,85,False
 2026-05-26,Mumbai,Andheri,Cold Brew,118,36,26,128,False
 2026-05-26,Mumbai,Andheri,Breakfast Combo,72,53,22,103,False
@@ -3269,10 +3138,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-27,Delhi,Saket,Breakfast Combo,79,45,26,98,False
 2026-05-27,Delhi,Saket,Cappuccino,111,27,50,88,False
 2026-05-27,Delhi,Saket,Chai Frappe,110,25,43,92,False
-2026-05-27,Mumbai,Bandra,House Latte,119,42,28,133,False
 2026-05-27,Mumbai,Bandra,Cold Brew,110,40,19,131,False
 2026-05-27,Mumbai,Bandra,Breakfast Combo,59,47,33,73,False
-2026-05-27,Mumbai,Bandra,Cappuccino,57,51,19,89,False
 2026-05-27,Mumbai,Bandra,Chai Frappe,57,38,16,79,False
 2026-05-27,Mumbai,Andheri,House Latte,70,56,52,74,False
 2026-05-27,Mumbai,Andheri,Cold Brew,109,32,17,124,False
@@ -3330,10 +3197,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-28,Delhi,Saket,Cappuccino,61,48,34,75,False
 2026-05-28,Delhi,Saket,Chai Frappe,68,46,38,76,False
 2026-05-28,Mumbai,Bandra,House Latte,65,28,51,42,False
-2026-05-28,Mumbai,Bandra,Cold Brew,53,58,33,78,False
 2026-05-28,Mumbai,Bandra,Breakfast Combo,119,34,37,116,False
 2026-05-28,Mumbai,Bandra,Cappuccino,89,33,23,99,False
-2026-05-28,Mumbai,Bandra,Chai Frappe,81,46,25,102,False
 2026-05-28,Mumbai,Andheri,House Latte,101,45,21,125,False
 2026-05-28,Mumbai,Andheri,Cold Brew,115,21,41,95,False
 2026-05-28,Mumbai,Andheri,Breakfast Combo,75,46,45,76,False
@@ -3391,8 +3256,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-29,Delhi,Saket,Chai Frappe,44,54,52,46,False
 2026-05-29,Mumbai,Bandra,House Latte,46,36,35,47,False
 2026-05-29,Mumbai,Bandra,Cold Brew,102,59,31,130,False
-2026-05-29,Mumbai,Bandra,Breakfast Combo,99,57,48,108,False
-2026-05-29,Mumbai,Bandra,Cappuccino,63,52,31,84,False
 2026-05-29,Mumbai,Bandra,Chai Frappe,41,50,48,43,False
 2026-05-29,Mumbai,Andheri,House Latte,67,38,29,76,False
 2026-05-29,Mumbai,Andheri,Cold Brew,49,59,15,93,False
@@ -3449,10 +3312,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-30,Delhi,Saket,Breakfast Combo,97,53,40,110,False
 2026-05-30,Delhi,Saket,Cappuccino,96,53,52,97,False
 2026-05-30,Delhi,Saket,Chai Frappe,43,49,21,71,False
-2026-05-30,Mumbai,Bandra,House Latte,111,21,24,108,False
 2026-05-30,Mumbai,Bandra,Cold Brew,55,44,15,84,False
 2026-05-30,Mumbai,Bandra,Breakfast Combo,41,40,53,28,False
-2026-05-30,Mumbai,Bandra,Cappuccino,82,37,41,78,False
 2026-05-30,Mumbai,Bandra,Chai Frappe,84,35,38,81,False
 2026-05-30,Mumbai,Andheri,House Latte,40,29,41,28,False
 2026-05-30,Mumbai,Andheri,Cold Brew,67,22,19,70,False
@@ -3511,9 +3372,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-05-31,Delhi,Saket,Chai Frappe,110,53,29,134,False
 2026-05-31,Mumbai,Bandra,House Latte,60,21,44,37,False
 2026-05-31,Mumbai,Bandra,Cold Brew,66,55,49,72,False
-2026-05-31,Mumbai,Bandra,Breakfast Combo,50,56,20,86,False
-2026-05-31,Mumbai,Bandra,Cappuccino,79,38,53,64,False
-2026-05-31,Mumbai,Bandra,Chai Frappe,92,55,38,109,False
 2026-05-31,Mumbai,Andheri,House Latte,106,54,49,111,False
 2026-05-31,Mumbai,Andheri,Cold Brew,72,35,54,53,False
 2026-05-31,Mumbai,Andheri,Breakfast Combo,100,56,38,118,False
@@ -3569,9 +3427,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-01,Delhi,Saket,Breakfast Combo,113,36,45,104,False
 2026-06-01,Delhi,Saket,Cappuccino,82,46,40,88,False
 2026-06-01,Delhi,Saket,Chai Frappe,92,51,51,92,False
-2026-06-01,Mumbai,Bandra,House Latte,63,57,40,80,False
 2026-06-01,Mumbai,Bandra,Cold Brew,87,33,31,89,False
-2026-06-01,Mumbai,Bandra,Breakfast Combo,92,34,26,100,False
 2026-06-01,Mumbai,Bandra,Cappuccino,105,36,40,101,False
 2026-06-01,Mumbai,Bandra,Chai Frappe,42,23,48,17,False
 2026-06-01,Mumbai,Andheri,House Latte,51,51,51,51,False
@@ -3632,7 +3488,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-02,Mumbai,Bandra,House Latte,78,30,24,84,False
 2026-06-02,Mumbai,Bandra,Cold Brew,106,36,29,113,False
 2026-06-02,Mumbai,Bandra,Breakfast Combo,98,41,41,98,False
-2026-06-02,Mumbai,Bandra,Cappuccino,75,22,15,82,False
 2026-06-02,Mumbai,Bandra,Chai Frappe,43,42,35,50,False
 2026-06-02,Mumbai,Andheri,House Latte,99,55,21,133,False
 2026-06-02,Mumbai,Andheri,Cold Brew,116,57,39,134,False
@@ -3690,9 +3545,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-03,Delhi,Saket,Cappuccino,105,40,48,97,False
 2026-06-03,Delhi,Saket,Chai Frappe,67,36,48,55,False
 2026-06-03,Mumbai,Bandra,House Latte,70,50,33,87,False
-2026-06-03,Mumbai,Bandra,Cold Brew,63,28,39,52,False
-2026-06-03,Mumbai,Bandra,Breakfast Combo,78,34,44,68,False
-2026-06-03,Mumbai,Bandra,Cappuccino,40,23,53,10,False
 2026-06-03,Mumbai,Bandra,Chai Frappe,93,41,15,119,False
 2026-06-03,Mumbai,Andheri,House Latte,87,37,38,86,False
 2026-06-03,Mumbai,Andheri,Cold Brew,43,42,38,47,False
@@ -3752,8 +3604,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-04,Mumbai,Bandra,House Latte,110,44,28,126,False
 2026-06-04,Mumbai,Bandra,Cold Brew,98,44,45,97,False
 2026-06-04,Mumbai,Bandra,Breakfast Combo,46,22,40,28,False
-2026-06-04,Mumbai,Bandra,Cappuccino,64,29,31,62,False
-2026-06-04,Mumbai,Bandra,Chai Frappe,98,27,53,72,False
 2026-06-04,Mumbai,Andheri,House Latte,73,26,17,82,False
 2026-06-04,Mumbai,Andheri,Cold Brew,108,24,31,101,False
 2026-06-04,Mumbai,Andheri,Breakfast Combo,93,40,25,108,False
@@ -3809,11 +3659,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-05,Delhi,Saket,Breakfast Combo,101,55,37,119,False
 2026-06-05,Delhi,Saket,Cappuccino,65,59,53,71,False
 2026-06-05,Delhi,Saket,Chai Frappe,94,45,19,120,False
-2026-06-05,Mumbai,Bandra,House Latte,72,27,35,64,False
 2026-06-05,Mumbai,Bandra,Cold Brew,106,28,54,80,False
-2026-06-05,Mumbai,Bandra,Breakfast Combo,50,23,53,20,False
 2026-06-05,Mumbai,Bandra,Cappuccino,48,49,45,52,False
-2026-06-05,Mumbai,Bandra,Chai Frappe,66,22,27,61,False
 2026-06-05,Mumbai,Andheri,House Latte,45,46,50,41,False
 2026-06-05,Mumbai,Andheri,Cold Brew,119,52,45,126,False
 2026-06-05,Mumbai,Andheri,Breakfast Combo,110,50,41,119,False
@@ -3872,8 +3719,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-06,Mumbai,Bandra,House Latte,67,49,50,66,False
 2026-06-06,Mumbai,Bandra,Cold Brew,96,50,48,98,False
 2026-06-06,Mumbai,Bandra,Breakfast Combo,69,22,28,63,False
-2026-06-06,Mumbai,Bandra,Cappuccino,100,52,35,117,False
-2026-06-06,Mumbai,Bandra,Chai Frappe,102,22,40,84,False
 2026-06-06,Mumbai,Andheri,House Latte,94,40,43,91,False
 2026-06-06,Mumbai,Andheri,Cold Brew,79,40,39,80,False
 2026-06-06,Mumbai,Andheri,Breakfast Combo,103,29,27,105,False
@@ -3929,9 +3774,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-07,Delhi,Saket,Breakfast Combo,117,53,38,132,False
 2026-06-07,Delhi,Saket,Cappuccino,65,40,36,69,False
 2026-06-07,Delhi,Saket,Chai Frappe,107,41,16,132,False
-2026-06-07,Mumbai,Bandra,House Latte,95,51,26,120,False
-2026-06-07,Mumbai,Bandra,Cold Brew,49,25,48,26,False
-2026-06-07,Mumbai,Bandra,Breakfast Combo,75,41,53,63,False
 2026-06-07,Mumbai,Bandra,Cappuccino,44,28,48,24,False
 2026-06-07,Mumbai,Bandra,Chai Frappe,83,21,43,61,False
 2026-06-07,Mumbai,Andheri,House Latte,51,51,46,56,False
@@ -3989,11 +3831,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-08,Delhi,Saket,Breakfast Combo,80,25,36,69,False
 2026-06-08,Delhi,Saket,Cappuccino,60,53,39,74,False
 2026-06-08,Delhi,Saket,Chai Frappe,66,44,41,69,False
-2026-06-08,Mumbai,Bandra,House Latte,94,34,37,91,False
 2026-06-08,Mumbai,Bandra,Cold Brew,43,36,30,49,False
 2026-06-08,Mumbai,Bandra,Breakfast Combo,82,58,53,87,False
-2026-06-08,Mumbai,Bandra,Cappuccino,78,45,19,104,False
-2026-06-08,Mumbai,Bandra,Chai Frappe,78,47,42,83,False
 2026-06-08,Mumbai,Andheri,House Latte,117,38,51,104,False
 2026-06-08,Mumbai,Andheri,Cold Brew,118,42,18,142,False
 2026-06-08,Mumbai,Andheri,Breakfast Combo,70,50,38,82,False
@@ -4051,9 +3890,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-09,Delhi,Saket,Chai Frappe,54,24,47,31,False
 2026-06-09,Mumbai,Bandra,House Latte,49,40,43,46,False
 2026-06-09,Mumbai,Bandra,Cold Brew,90,46,29,107,False
-2026-06-09,Mumbai,Bandra,Breakfast Combo,111,22,19,114,False
 2026-06-09,Mumbai,Bandra,Cappuccino,108,22,22,108,False
-2026-06-09,Mumbai,Bandra,Chai Frappe,53,21,19,55,False
 2026-06-09,Mumbai,Andheri,House Latte,85,46,18,113,False
 2026-06-09,Mumbai,Andheri,Cold Brew,115,23,42,96,False
 2026-06-09,Mumbai,Andheri,Breakfast Combo,104,40,34,110,False
@@ -4110,9 +3947,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-10,Delhi,Saket,Cappuccino,113,33,22,124,False
 2026-06-10,Delhi,Saket,Chai Frappe,85,31,50,66,False
 2026-06-10,Mumbai,Bandra,House Latte,107,46,40,113,False
-2026-06-10,Mumbai,Bandra,Cold Brew,88,49,33,104,False
-2026-06-10,Mumbai,Bandra,Breakfast Combo,117,33,15,135,False
-2026-06-10,Mumbai,Bandra,Cappuccino,95,46,54,87,False
 2026-06-10,Mumbai,Bandra,Chai Frappe,71,36,37,70,False
 2026-06-10,Mumbai,Andheri,House Latte,71,51,32,90,False
 2026-06-10,Mumbai,Andheri,Cold Brew,102,37,24,115,False
@@ -4169,10 +4003,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-11,Delhi,Saket,Breakfast Combo,106,27,23,110,False
 2026-06-11,Delhi,Saket,Cappuccino,77,37,27,87,False
 2026-06-11,Delhi,Saket,Chai Frappe,68,31,51,48,False
-2026-06-11,Mumbai,Bandra,House Latte,86,56,54,88,False
-2026-06-11,Mumbai,Bandra,Cold Brew,92,53,19,126,False
-2026-06-11,Mumbai,Bandra,Breakfast Combo,115,39,43,111,False
-2026-06-11,Mumbai,Bandra,Cappuccino,59,23,50,32,False
 2026-06-11,Mumbai,Bandra,Chai Frappe,75,25,41,59,False
 2026-06-11,Mumbai,Andheri,House Latte,44,38,43,39,False
 2026-06-11,Mumbai,Andheri,Cold Brew,97,38,29,106,False
@@ -4230,10 +4060,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-12,Delhi,Saket,Cappuccino,47,55,28,74,False
 2026-06-12,Delhi,Saket,Chai Frappe,76,36,26,86,False
 2026-06-12,Mumbai,Bandra,House Latte,110,45,53,102,False
-2026-06-12,Mumbai,Bandra,Cold Brew,116,36,44,108,False
-2026-06-12,Mumbai,Bandra,Breakfast Combo,80,39,44,75,False
 2026-06-12,Mumbai,Bandra,Cappuccino,95,56,45,106,False
-2026-06-12,Mumbai,Bandra,Chai Frappe,89,56,19,126,False
 2026-06-12,Mumbai,Andheri,House Latte,101,35,32,104,False
 2026-06-12,Mumbai,Andheri,Cold Brew,102,30,50,82,False
 2026-06-12,Mumbai,Andheri,Breakfast Combo,79,33,28,84,False
@@ -4289,11 +4116,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-13,Delhi,Saket,Breakfast Combo,72,43,32,83,False
 2026-06-13,Delhi,Saket,Cappuccino,65,24,38,51,False
 2026-06-13,Delhi,Saket,Chai Frappe,113,40,38,115,False
-2026-06-13,Mumbai,Bandra,House Latte,91,35,19,107,False
 2026-06-13,Mumbai,Bandra,Cold Brew,80,54,27,107,False
 2026-06-13,Mumbai,Bandra,Breakfast Combo,109,54,24,139,False
-2026-06-13,Mumbai,Bandra,Cappuccino,86,49,34,101,False
-2026-06-13,Mumbai,Bandra,Chai Frappe,95,56,40,111,False
 2026-06-13,Mumbai,Andheri,House Latte,107,52,47,112,False
 2026-06-13,Mumbai,Andheri,Cold Brew,108,29,15,122,False
 2026-06-13,Mumbai,Andheri,Breakfast Combo,52,29,42,39,False
@@ -4352,7 +4176,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-14,Mumbai,Bandra,House Latte,51,59,22,88,False
 2026-06-14,Mumbai,Bandra,Cold Brew,64,30,16,78,False
 2026-06-14,Mumbai,Bandra,Breakfast Combo,41,40,24,57,False
-2026-06-14,Mumbai,Bandra,Cappuccino,46,31,25,52,False
 2026-06-14,Mumbai,Bandra,Chai Frappe,73,59,27,105,False
 2026-06-14,Mumbai,Andheri,House Latte,96,50,17,129,False
 2026-06-14,Mumbai,Andheri,Cold Brew,80,37,35,82,False
@@ -4410,8 +4233,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-15,Delhi,Saket,Cappuccino,73,40,21,92,False
 2026-06-15,Delhi,Saket,Chai Frappe,48,27,54,21,False
 2026-06-15,Mumbai,Bandra,House Latte,97,25,27,95,False
-2026-06-15,Mumbai,Bandra,Cold Brew,72,27,49,50,False
-2026-06-15,Mumbai,Bandra,Breakfast Combo,115,29,15,129,False
 2026-06-15,Mumbai,Bandra,Cappuccino,61,43,47,57,False
 2026-06-15,Mumbai,Bandra,Chai Frappe,67,30,24,73,False
 2026-06-15,Mumbai,Andheri,House Latte,40,20,32,28,False
@@ -4471,8 +4292,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-16,Delhi,Saket,Chai Frappe,49,33,33,49,False
 2026-06-16,Mumbai,Bandra,House Latte,111,39,32,118,False
 2026-06-16,Mumbai,Bandra,Cold Brew,53,37,36,54,False
-2026-06-16,Mumbai,Bandra,Breakfast Combo,86,44,32,98,False
-2026-06-16,Mumbai,Bandra,Cappuccino,52,26,21,57,False
 2026-06-16,Mumbai,Bandra,Chai Frappe,89,54,50,93,False
 2026-06-16,Mumbai,Andheri,House Latte,64,23,40,47,False
 2026-06-16,Mumbai,Andheri,Cold Brew,43,45,30,58,False
@@ -4530,10 +4349,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-17,Delhi,Saket,Cappuccino,45,48,41,52,False
 2026-06-17,Delhi,Saket,Chai Frappe,86,25,40,71,False
 2026-06-17,Mumbai,Bandra,House Latte,55,42,35,62,False
-2026-06-17,Mumbai,Bandra,Cold Brew,101,59,22,138,False
-2026-06-17,Mumbai,Bandra,Breakfast Combo,49,42,53,38,False
-2026-06-17,Mumbai,Bandra,Cappuccino,52,39,31,60,False
-2026-06-17,Mumbai,Bandra,Chai Frappe,65,46,26,85,False
 2026-06-17,Mumbai,Andheri,House Latte,79,53,30,102,False
 2026-06-17,Mumbai,Andheri,Cold Brew,41,55,25,71,False
 2026-06-17,Mumbai,Andheri,Breakfast Combo,101,50,36,115,False
@@ -4593,7 +4408,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-18,Mumbai,Bandra,Cold Brew,74,48,25,97,False
 2026-06-18,Mumbai,Bandra,Breakfast Combo,103,44,32,115,False
 2026-06-18,Mumbai,Bandra,Cappuccino,90,31,39,82,False
-2026-06-18,Mumbai,Bandra,Chai Frappe,77,32,54,55,False
 2026-06-18,Mumbai,Andheri,House Latte,45,50,23,72,False
 2026-06-18,Mumbai,Andheri,Cold Brew,57,26,19,64,False
 2026-06-18,Mumbai,Andheri,Breakfast Combo,49,53,52,50,False
@@ -4649,11 +4463,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-19,Delhi,Saket,Breakfast Combo,101,55,29,127,False
 2026-06-19,Delhi,Saket,Cappuccino,96,29,48,77,False
 2026-06-19,Delhi,Saket,Chai Frappe,116,31,37,110,False
-2026-06-19,Mumbai,Bandra,House Latte,105,21,43,83,False
-2026-06-19,Mumbai,Bandra,Cold Brew,105,54,22,137,False
-2026-06-19,Mumbai,Bandra,Breakfast Combo,100,51,15,136,False
-2026-06-19,Mumbai,Bandra,Cappuccino,96,45,53,88,False
-2026-06-19,Mumbai,Bandra,Chai Frappe,43,58,37,64,False
 2026-06-19,Mumbai,Andheri,House Latte,61,35,45,51,False
 2026-06-19,Mumbai,Andheri,Cold Brew,119,32,54,97,False
 2026-06-19,Mumbai,Andheri,Breakfast Combo,90,27,38,79,False
@@ -4709,10 +4518,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-20,Delhi,Saket,Breakfast Combo,53,54,15,92,False
 2026-06-20,Delhi,Saket,Cappuccino,45,30,20,55,False
 2026-06-20,Delhi,Saket,Chai Frappe,44,35,30,49,False
-2026-06-20,Mumbai,Bandra,House Latte,50,52,50,52,False
-2026-06-20,Mumbai,Bandra,Cold Brew,97,40,52,85,False
-2026-06-20,Mumbai,Bandra,Breakfast Combo,68,37,15,90,False
-2026-06-20,Mumbai,Bandra,Cappuccino,96,23,41,78,False
 2026-06-20,Mumbai,Bandra,Chai Frappe,102,28,39,91,False
 2026-06-20,Mumbai,Andheri,House Latte,64,35,36,63,False
 2026-06-20,Mumbai,Andheri,Cold Brew,59,51,30,80,False
@@ -4769,9 +4574,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-21,Delhi,Saket,Breakfast Combo,84,23,44,63,False
 2026-06-21,Delhi,Saket,Cappuccino,42,59,48,53,False
 2026-06-21,Delhi,Saket,Chai Frappe,86,56,47,95,False
-2026-06-21,Mumbai,Bandra,House Latte,51,49,30,70,False
-2026-06-21,Mumbai,Bandra,Cold Brew,108,54,53,109,False
-2026-06-21,Mumbai,Bandra,Breakfast Combo,76,27,20,83,False
 2026-06-21,Mumbai,Bandra,Cappuccino,53,59,38,74,False
 2026-06-21,Mumbai,Bandra,Chai Frappe,68,37,21,84,False
 2026-06-21,Mumbai,Andheri,House Latte,85,37,46,76,False
@@ -4830,10 +4632,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-22,Delhi,Saket,Cappuccino,77,48,41,84,False
 2026-06-22,Delhi,Saket,Chai Frappe,105,21,33,93,False
 2026-06-22,Mumbai,Bandra,House Latte,96,59,20,135,False
-2026-06-22,Mumbai,Bandra,Cold Brew,110,20,22,108,False
-2026-06-22,Mumbai,Bandra,Breakfast Combo,107,51,53,105,False
 2026-06-22,Mumbai,Bandra,Cappuccino,88,44,36,96,False
-2026-06-22,Mumbai,Bandra,Chai Frappe,80,40,26,94,False
 2026-06-22,Mumbai,Andheri,House Latte,108,34,39,103,False
 2026-06-22,Mumbai,Andheri,Cold Brew,93,41,39,95,False
 2026-06-22,Mumbai,Andheri,Breakfast Combo,43,32,32,43,False
@@ -4890,10 +4689,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-23,Delhi,Saket,Cappuccino,74,34,26,82,False
 2026-06-23,Delhi,Saket,Chai Frappe,92,42,30,104,False
 2026-06-23,Mumbai,Bandra,House Latte,114,56,22,148,False
-2026-06-23,Mumbai,Bandra,Cold Brew,91,58,34,115,False
 2026-06-23,Mumbai,Bandra,Breakfast Combo,42,25,41,26,False
 2026-06-23,Mumbai,Bandra,Cappuccino,112,25,36,101,False
-2026-06-23,Mumbai,Bandra,Chai Frappe,79,31,40,70,False
 2026-06-23,Mumbai,Andheri,House Latte,110,29,17,122,False
 2026-06-23,Mumbai,Andheri,Cold Brew,68,32,44,56,False
 2026-06-23,Mumbai,Andheri,Breakfast Combo,82,20,28,74,False
@@ -4949,10 +4746,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-24,Delhi,Saket,Breakfast Combo,48,41,22,67,False
 2026-06-24,Delhi,Saket,Cappuccino,50,31,42,39,False
 2026-06-24,Delhi,Saket,Chai Frappe,79,26,44,61,False
-2026-06-24,Mumbai,Bandra,House Latte,79,27,42,64,False
 2026-06-24,Mumbai,Bandra,Cold Brew,119,41,21,139,False
 2026-06-24,Mumbai,Bandra,Breakfast Combo,64,43,54,53,False
-2026-06-24,Mumbai,Bandra,Cappuccino,114,57,48,123,False
 2026-06-24,Mumbai,Bandra,Chai Frappe,85,45,44,86,False
 2026-06-24,Mumbai,Andheri,House Latte,97,45,20,122,False
 2026-06-24,Mumbai,Andheri,Cold Brew,110,20,32,98,False
@@ -5009,10 +4804,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-25,Delhi,Saket,Breakfast Combo,88,48,36,100,False
 2026-06-25,Delhi,Saket,Cappuccino,64,22,41,45,False
 2026-06-25,Delhi,Saket,Chai Frappe,95,39,43,91,False
-2026-06-25,Mumbai,Bandra,House Latte,102,40,16,126,False
 2026-06-25,Mumbai,Bandra,Cold Brew,109,38,41,106,False
-2026-06-25,Mumbai,Bandra,Breakfast Combo,112,34,39,107,False
-2026-06-25,Mumbai,Bandra,Cappuccino,41,55,17,79,False
 2026-06-25,Mumbai,Bandra,Chai Frappe,83,34,16,101,False
 2026-06-25,Mumbai,Andheri,House Latte,76,57,21,112,False
 2026-06-25,Mumbai,Andheri,Cold Brew,63,27,19,71,False
@@ -5069,9 +4861,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-26,Delhi,Saket,Breakfast Combo,119,24,54,89,False
 2026-06-26,Delhi,Saket,Cappuccino,42,40,31,51,False
 2026-06-26,Delhi,Saket,Chai Frappe,85,37,50,72,False
-2026-06-26,Mumbai,Bandra,House Latte,41,59,42,58,False
-2026-06-26,Mumbai,Bandra,Cold Brew,102,25,17,110,False
-2026-06-26,Mumbai,Bandra,Breakfast Combo,71,32,46,57,False
 2026-06-26,Mumbai,Bandra,Cappuccino,111,37,45,103,False
 2026-06-26,Mumbai,Bandra,Chai Frappe,44,49,18,75,False
 2026-06-26,Mumbai,Andheri,House Latte,93,35,31,97,False
@@ -5129,9 +4918,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-27,Delhi,Saket,Breakfast Combo,42,23,31,34,False
 2026-06-27,Delhi,Saket,Cappuccino,80,36,53,63,False
 2026-06-27,Delhi,Saket,Chai Frappe,57,35,24,68,False
-2026-06-27,Mumbai,Bandra,House Latte,63,43,27,79,False
 2026-06-27,Mumbai,Bandra,Cold Brew,65,46,48,63,False
-2026-06-27,Mumbai,Bandra,Breakfast Combo,57,24,24,57,False
 2026-06-27,Mumbai,Bandra,Cappuccino,86,58,21,123,False
 2026-06-27,Mumbai,Bandra,Chai Frappe,43,41,54,30,False
 2026-06-27,Mumbai,Andheri,House Latte,84,56,40,100,False
@@ -5189,8 +4976,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-28,Delhi,Saket,Breakfast Combo,101,28,26,103,False
 2026-06-28,Delhi,Saket,Cappuccino,73,40,51,62,False
 2026-06-28,Delhi,Saket,Chai Frappe,57,30,30,57,False
-2026-06-28,Mumbai,Bandra,House Latte,108,58,33,133,False
-2026-06-28,Mumbai,Bandra,Cold Brew,95,56,48,103,False
 2026-06-28,Mumbai,Bandra,Breakfast Combo,94,41,54,81,False
 2026-06-28,Mumbai,Bandra,Cappuccino,59,34,43,50,False
 2026-06-28,Mumbai,Bandra,Chai Frappe,41,40,49,32,False
@@ -5249,7 +5034,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-29,Delhi,Saket,Breakfast Combo,42,59,16,85,False
 2026-06-29,Delhi,Saket,Cappuccino,119,30,48,101,False
 2026-06-29,Delhi,Saket,Chai Frappe,46,38,36,48,False
-2026-06-29,Mumbai,Bandra,House Latte,116,24,16,124,False
 2026-06-29,Mumbai,Bandra,Cold Brew,91,21,46,66,False
 2026-06-29,Mumbai,Bandra,Breakfast Combo,43,58,36,65,False
 2026-06-29,Mumbai,Bandra,Cappuccino,115,25,25,115,False
@@ -5313,7 +5097,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-06-30,Mumbai,Bandra,Cold Brew,80,43,48,75,False
 2026-06-30,Mumbai,Bandra,Breakfast Combo,105,23,30,98,False
 2026-06-30,Mumbai,Bandra,Cappuccino,43,35,40,38,False
-2026-06-30,Mumbai,Bandra,Chai Frappe,56,26,34,48,False
 2026-06-30,Mumbai,Andheri,House Latte,81,48,15,114,False
 2026-06-30,Mumbai,Andheri,Cold Brew,59,51,42,68,False
 2026-06-30,Mumbai,Andheri,Breakfast Combo,111,52,48,115,False
@@ -5371,9 +5154,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-01,Delhi,Saket,Chai Frappe,96,50,52,94,False
 2026-07-01,Mumbai,Bandra,House Latte,40,43,16,67,False
 2026-07-01,Mumbai,Bandra,Cold Brew,86,35,27,94,False
-2026-07-01,Mumbai,Bandra,Breakfast Combo,111,48,37,122,False
-2026-07-01,Mumbai,Bandra,Cappuccino,110,23,40,93,False
-2026-07-01,Mumbai,Bandra,Chai Frappe,52,29,22,59,False
 2026-07-01,Mumbai,Andheri,House Latte,83,45,45,83,False
 2026-07-01,Mumbai,Andheri,Cold Brew,75,57,29,103,False
 2026-07-01,Mumbai,Andheri,Breakfast Combo,52,21,20,53,False
@@ -5433,7 +5213,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-02,Mumbai,Bandra,Cold Brew,60,59,23,96,False
 2026-07-02,Mumbai,Bandra,Breakfast Combo,51,53,50,54,False
 2026-07-02,Mumbai,Bandra,Cappuccino,47,43,35,55,False
-2026-07-02,Mumbai,Bandra,Chai Frappe,57,40,42,55,False
 2026-07-02,Mumbai,Andheri,House Latte,85,40,50,75,False
 2026-07-02,Mumbai,Andheri,Cold Brew,58,44,27,75,False
 2026-07-02,Mumbai,Andheri,Breakfast Combo,117,30,49,98,False
@@ -5489,11 +5268,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-03,Delhi,Saket,Breakfast Combo,58,41,23,76,False
 2026-07-03,Delhi,Saket,Cappuccino,89,56,27,118,False
 2026-07-03,Delhi,Saket,Chai Frappe,88,56,50,94,False
-2026-07-03,Mumbai,Bandra,House Latte,40,24,54,10,False
-2026-07-03,Mumbai,Bandra,Cold Brew,114,32,35,111,False
-2026-07-03,Mumbai,Bandra,Breakfast Combo,85,46,45,86,False
-2026-07-03,Mumbai,Bandra,Cappuccino,69,55,17,107,False
-2026-07-03,Mumbai,Bandra,Chai Frappe,42,58,22,78,False
 2026-07-03,Mumbai,Andheri,House Latte,119,31,29,121,False
 2026-07-03,Mumbai,Andheri,Cold Brew,42,57,29,70,False
 2026-07-03,Mumbai,Andheri,Breakfast Combo,53,39,21,71,False
@@ -5549,10 +5323,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-04,Delhi,Saket,Breakfast Combo,42,21,36,27,False
 2026-07-04,Delhi,Saket,Cappuccino,114,22,46,90,False
 2026-07-04,Delhi,Saket,Chai Frappe,115,39,49,105,False
-2026-07-04,Mumbai,Bandra,House Latte,100,28,49,79,False
-2026-07-04,Mumbai,Bandra,Cold Brew,95,20,37,78,False
 2026-07-04,Mumbai,Bandra,Breakfast Combo,92,52,45,99,False
-2026-07-04,Mumbai,Bandra,Cappuccino,78,31,22,87,False
 2026-07-04,Mumbai,Bandra,Chai Frappe,47,45,53,39,False
 2026-07-04,Mumbai,Andheri,House Latte,46,48,38,56,False
 2026-07-04,Mumbai,Andheri,Cold Brew,53,28,26,55,False
@@ -5610,8 +5381,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-05,Delhi,Saket,Cappuccino,68,45,40,73,False
 2026-07-05,Delhi,Saket,Chai Frappe,63,31,18,76,False
 2026-07-05,Mumbai,Bandra,House Latte,63,53,41,75,False
-2026-07-05,Mumbai,Bandra,Cold Brew,115,57,49,123,False
-2026-07-05,Mumbai,Bandra,Breakfast Combo,54,33,17,70,False
 2026-07-05,Mumbai,Bandra,Cappuccino,47,29,26,50,False
 2026-07-05,Mumbai,Bandra,Chai Frappe,41,53,36,58,False
 2026-07-05,Mumbai,Andheri,House Latte,92,46,53,85,False
@@ -5669,11 +5438,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-06,Delhi,Saket,Breakfast Combo,41,54,46,49,False
 2026-07-06,Delhi,Saket,Cappuccino,103,26,50,79,False
 2026-07-06,Delhi,Saket,Chai Frappe,87,36,42,81,False
-2026-07-06,Mumbai,Bandra,House Latte,67,31,26,72,False
-2026-07-06,Mumbai,Bandra,Cold Brew,85,44,24,105,False
 2026-07-06,Mumbai,Bandra,Breakfast Combo,59,57,35,81,False
 2026-07-06,Mumbai,Bandra,Cappuccino,108,33,26,115,False
-2026-07-06,Mumbai,Bandra,Chai Frappe,62,41,46,57,False
 2026-07-06,Mumbai,Andheri,House Latte,80,31,53,58,False
 2026-07-06,Mumbai,Andheri,Cold Brew,85,35,15,105,False
 2026-07-06,Mumbai,Andheri,Breakfast Combo,84,44,52,76,False
@@ -5729,10 +5495,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-07,Delhi,Saket,Breakfast Combo,81,43,16,108,False
 2026-07-07,Delhi,Saket,Cappuccino,70,54,29,95,False
 2026-07-07,Delhi,Saket,Chai Frappe,76,28,18,86,False
-2026-07-07,Mumbai,Bandra,House Latte,65,50,54,61,False
-2026-07-07,Mumbai,Bandra,Cold Brew,92,53,40,105,False
-2026-07-07,Mumbai,Bandra,Breakfast Combo,92,37,17,112,False
-2026-07-07,Mumbai,Bandra,Cappuccino,72,54,36,90,False
 2026-07-07,Mumbai,Bandra,Chai Frappe,100,22,23,99,False
 2026-07-07,Mumbai,Andheri,House Latte,63,34,54,43,False
 2026-07-07,Mumbai,Andheri,Cold Brew,76,46,40,82,False
@@ -5790,10 +5552,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-08,Delhi,Saket,Cappuccino,89,51,27,113,False
 2026-07-08,Delhi,Saket,Chai Frappe,109,37,24,122,False
 2026-07-08,Mumbai,Bandra,House Latte,98,25,31,92,False
-2026-07-08,Mumbai,Bandra,Cold Brew,102,50,25,127,False
-2026-07-08,Mumbai,Bandra,Breakfast Combo,53,21,18,56,False
 2026-07-08,Mumbai,Bandra,Cappuccino,106,51,35,122,False
-2026-07-08,Mumbai,Bandra,Chai Frappe,85,33,22,96,False
 2026-07-08,Mumbai,Andheri,House Latte,40,46,16,70,False
 2026-07-08,Mumbai,Andheri,Cold Brew,48,51,38,61,False
 2026-07-08,Mumbai,Andheri,Breakfast Combo,79,28,20,87,False
@@ -5849,11 +5608,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-09,Delhi,Saket,Breakfast Combo,48,30,53,25,False
 2026-07-09,Delhi,Saket,Cappuccino,84,47,34,97,False
 2026-07-09,Delhi,Saket,Chai Frappe,100,23,42,81,False
-2026-07-09,Mumbai,Bandra,House Latte,45,27,35,37,False
 2026-07-09,Mumbai,Bandra,Cold Brew,75,26,46,55,False
 2026-07-09,Mumbai,Bandra,Breakfast Combo,64,54,15,103,False
-2026-07-09,Mumbai,Bandra,Cappuccino,58,31,38,51,False
-2026-07-09,Mumbai,Bandra,Chai Frappe,72,26,37,61,False
 2026-07-09,Mumbai,Andheri,House Latte,116,25,25,116,False
 2026-07-09,Mumbai,Andheri,Cold Brew,78,49,20,107,False
 2026-07-09,Mumbai,Andheri,Breakfast Combo,58,29,39,48,False
@@ -5910,8 +5666,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-10,Delhi,Saket,Cappuccino,117,54,31,140,False
 2026-07-10,Delhi,Saket,Chai Frappe,87,20,17,90,False
 2026-07-10,Mumbai,Bandra,House Latte,80,38,30,88,False
-2026-07-10,Mumbai,Bandra,Cold Brew,47,53,31,69,False
-2026-07-10,Mumbai,Bandra,Breakfast Combo,77,36,34,79,False
 2026-07-10,Mumbai,Bandra,Cappuccino,91,50,36,105,False
 2026-07-10,Mumbai,Bandra,Chai Frappe,53,54,26,81,False
 2026-07-10,Mumbai,Andheri,House Latte,41,21,45,17,False
@@ -5969,11 +5723,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-11,Delhi,Saket,Breakfast Combo,63,20,35,48,False
 2026-07-11,Delhi,Saket,Cappuccino,78,33,22,89,False
 2026-07-11,Delhi,Saket,Chai Frappe,117,47,33,131,False
-2026-07-11,Mumbai,Bandra,House Latte,97,34,23,108,False
-2026-07-11,Mumbai,Bandra,Cold Brew,93,50,41,102,False
 2026-07-11,Mumbai,Bandra,Breakfast Combo,85,20,40,65,False
-2026-07-11,Mumbai,Bandra,Cappuccino,89,36,24,101,False
-2026-07-11,Mumbai,Bandra,Chai Frappe,118,35,25,128,False
 2026-07-11,Mumbai,Andheri,House Latte,96,39,37,98,False
 2026-07-11,Mumbai,Andheri,Cold Brew,91,34,21,104,False
 2026-07-11,Mumbai,Andheri,Breakfast Combo,53,57,35,75,False
@@ -6029,11 +5779,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-12,Delhi,Saket,Breakfast Combo,48,28,20,56,False
 2026-07-12,Delhi,Saket,Cappuccino,96,34,43,87,False
 2026-07-12,Delhi,Saket,Chai Frappe,88,20,27,81,False
-2026-07-12,Mumbai,Bandra,House Latte,40,22,33,29,False
-2026-07-12,Mumbai,Bandra,Cold Brew,61,23,31,53,False
-2026-07-12,Mumbai,Bandra,Breakfast Combo,76,59,41,94,False
-2026-07-12,Mumbai,Bandra,Cappuccino,71,38,18,91,False
-2026-07-12,Mumbai,Bandra,Chai Frappe,70,43,15,98,False
 2026-07-12,Mumbai,Andheri,House Latte,113,40,46,107,False
 2026-07-12,Mumbai,Andheri,Cold Brew,62,53,29,86,False
 2026-07-12,Mumbai,Andheri,Breakfast Combo,114,40,40,114,False
@@ -6089,10 +5834,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-13,Delhi,Saket,Breakfast Combo,47,21,44,24,False
 2026-07-13,Delhi,Saket,Cappuccino,42,36,19,59,False
 2026-07-13,Delhi,Saket,Chai Frappe,86,21,16,91,False
-2026-07-13,Mumbai,Bandra,House Latte,72,47,19,100,False
 2026-07-13,Mumbai,Bandra,Cold Brew,79,52,40,91,False
-2026-07-13,Mumbai,Bandra,Breakfast Combo,100,32,52,80,False
-2026-07-13,Mumbai,Bandra,Cappuccino,51,44,32,63,False
 2026-07-13,Mumbai,Bandra,Chai Frappe,42,57,43,56,False
 2026-07-13,Mumbai,Andheri,House Latte,58,22,42,38,False
 2026-07-13,Mumbai,Andheri,Cold Brew,83,21,54,50,False
@@ -6149,10 +5891,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-14,Delhi,Saket,Breakfast Combo,118,55,28,145,False
 2026-07-14,Delhi,Saket,Cappuccino,45,33,15,63,False
 2026-07-14,Delhi,Saket,Chai Frappe,94,35,16,113,False
-2026-07-14,Mumbai,Bandra,House Latte,118,53,51,120,False
-2026-07-14,Mumbai,Bandra,Cold Brew,119,20,46,93,False
-2026-07-14,Mumbai,Bandra,Breakfast Combo,103,51,25,129,False
-2026-07-14,Mumbai,Bandra,Cappuccino,71,57,17,111,False
 2026-07-14,Mumbai,Bandra,Chai Frappe,91,51,46,96,False
 2026-07-14,Mumbai,Andheri,House Latte,87,50,51,86,False
 2026-07-14,Mumbai,Andheri,Cold Brew,101,24,24,101,False
@@ -6210,9 +5948,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-15,Delhi,Saket,Cappuccino,48,30,51,27,False
 2026-07-15,Delhi,Saket,Chai Frappe,85,50,21,114,False
 2026-07-15,Mumbai,Bandra,House Latte,57,57,31,83,False
-2026-07-15,Mumbai,Bandra,Cold Brew,110,52,28,134,False
 2026-07-15,Mumbai,Bandra,Breakfast Combo,115,51,20,146,False
-2026-07-15,Mumbai,Bandra,Cappuccino,47,25,44,28,False
 2026-07-15,Mumbai,Bandra,Chai Frappe,51,31,32,50,False
 2026-07-15,Mumbai,Andheri,House Latte,50,33,42,41,False
 2026-07-15,Mumbai,Andheri,Cold Brew,117,38,44,111,False
@@ -6269,11 +6005,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-16,Delhi,Saket,Breakfast Combo,93,45,41,97,False
 2026-07-16,Delhi,Saket,Cappuccino,74,41,41,74,False
 2026-07-16,Delhi,Saket,Chai Frappe,77,50,43,84,False
-2026-07-16,Mumbai,Bandra,House Latte,64,44,45,63,False
 2026-07-16,Mumbai,Bandra,Cold Brew,79,48,20,107,False
-2026-07-16,Mumbai,Bandra,Breakfast Combo,70,48,50,68,False
 2026-07-16,Mumbai,Bandra,Cappuccino,91,46,28,109,False
-2026-07-16,Mumbai,Bandra,Chai Frappe,96,34,17,113,False
 2026-07-16,Mumbai,Andheri,House Latte,59,44,53,50,False
 2026-07-16,Mumbai,Andheri,Cold Brew,79,54,46,87,False
 2026-07-16,Mumbai,Andheri,Breakfast Combo,84,52,31,105,False
@@ -6329,11 +6062,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-17,Delhi,Saket,Breakfast Combo,71,37,52,56,False
 2026-07-17,Delhi,Saket,Cappuccino,52,55,31,76,False
 2026-07-17,Delhi,Saket,Chai Frappe,87,46,18,115,False
-2026-07-17,Mumbai,Bandra,House Latte,51,26,46,31,False
-2026-07-17,Mumbai,Bandra,Cold Brew,46,44,19,71,False
 2026-07-17,Mumbai,Bandra,Breakfast Combo,101,59,31,129,False
 2026-07-17,Mumbai,Bandra,Cappuccino,56,37,42,51,False
-2026-07-17,Mumbai,Bandra,Chai Frappe,98,45,38,105,False
 2026-07-17,Mumbai,Andheri,House Latte,90,28,23,95,False
 2026-07-17,Mumbai,Andheri,Cold Brew,114,43,49,108,False
 2026-07-17,Mumbai,Andheri,Breakfast Combo,90,38,37,91,False
@@ -6389,10 +6119,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-18,Delhi,Saket,Breakfast Combo,97,28,17,108,False
 2026-07-18,Delhi,Saket,Cappuccino,116,28,35,109,False
 2026-07-18,Delhi,Saket,Chai Frappe,105,59,47,117,False
-2026-07-18,Mumbai,Bandra,House Latte,67,54,15,106,False
 2026-07-18,Mumbai,Bandra,Cold Brew,66,27,36,57,False
-2026-07-18,Mumbai,Bandra,Breakfast Combo,111,50,54,107,False
-2026-07-18,Mumbai,Bandra,Cappuccino,50,50,43,57,False
 2026-07-18,Mumbai,Bandra,Chai Frappe,76,23,19,80,False
 2026-07-18,Mumbai,Andheri,House Latte,113,31,40,104,False
 2026-07-18,Mumbai,Andheri,Cold Brew,115,39,23,131,False
@@ -6511,9 +6238,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-20,Delhi,Saket,Chai Frappe,63,57,33,87,False
 2026-07-20,Mumbai,Bandra,House Latte,44,41,53,32,False
 2026-07-20,Mumbai,Bandra,Cold Brew,60,58,41,77,False
-2026-07-20,Mumbai,Bandra,Breakfast Combo,71,47,31,87,False
-2026-07-20,Mumbai,Bandra,Cappuccino,46,54,29,71,False
-2026-07-20,Mumbai,Bandra,Chai Frappe,85,49,18,116,False
 2026-07-20,Mumbai,Andheri,House Latte,97,34,36,95,False
 2026-07-20,Mumbai,Andheri,Cold Brew,76,51,22,105,False
 2026-07-20,Mumbai,Andheri,Breakfast Combo,48,36,19,65,False
@@ -6569,11 +6293,8 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-21,Delhi,Saket,Breakfast Combo,60,36,42,54,False
 2026-07-21,Delhi,Saket,Cappuccino,88,34,45,77,False
 2026-07-21,Delhi,Saket,Chai Frappe,52,38,19,71,False
-2026-07-21,Mumbai,Bandra,House Latte,82,23,52,53,False
 2026-07-21,Mumbai,Bandra,Cold Brew,92,29,39,82,False
-2026-07-21,Mumbai,Bandra,Breakfast Combo,67,40,21,86,False
 2026-07-21,Mumbai,Bandra,Cappuccino,80,24,21,83,False
-2026-07-21,Mumbai,Bandra,Chai Frappe,86,40,26,100,False
 2026-07-21,Mumbai,Andheri,House Latte,44,36,52,28,False
 2026-07-21,Mumbai,Andheri,Cold Brew,96,22,52,66,False
 2026-07-21,Mumbai,Andheri,Breakfast Combo,73,43,15,101,False
@@ -6632,8 +6353,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-22,Mumbai,Bandra,House Latte,55,21,44,32,False
 2026-07-22,Mumbai,Bandra,Cold Brew,105,46,24,127,False
 2026-07-22,Mumbai,Bandra,Breakfast Combo,41,45,22,64,False
-2026-07-22,Mumbai,Bandra,Cappuccino,83,58,15,126,False
-2026-07-22,Mumbai,Bandra,Chai Frappe,86,59,28,117,False
 2026-07-22,Mumbai,Andheri,House Latte,105,53,34,124,False
 2026-07-22,Mumbai,Andheri,Cold Brew,64,47,39,72,False
 2026-07-22,Mumbai,Andheri,Breakfast Combo,78,27,44,61,False
@@ -6692,7 +6411,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-23,Mumbai,Bandra,House Latte,82,57,28,111,False
 2026-07-23,Mumbai,Bandra,Cold Brew,111,57,39,129,False
 2026-07-23,Mumbai,Bandra,Breakfast Combo,96,40,27,109,False
-2026-07-23,Mumbai,Bandra,Cappuccino,82,58,15,125,False
 2026-07-23,Mumbai,Bandra,Chai Frappe,56,39,28,67,False
 2026-07-23,Mumbai,Andheri,House Latte,89,34,41,82,False
 2026-07-23,Mumbai,Andheri,Cold Brew,48,33,42,39,False
@@ -6749,11 +6467,7 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-24,Delhi,Saket,Breakfast Combo,45,40,23,62,False
 2026-07-24,Delhi,Saket,Cappuccino,66,23,16,73,False
 2026-07-24,Delhi,Saket,Chai Frappe,50,35,21,64,False
-2026-07-24,Mumbai,Bandra,House Latte,58,32,26,64,False
 2026-07-24,Mumbai,Bandra,Cold Brew,40,24,53,11,False
-2026-07-24,Mumbai,Bandra,Breakfast Combo,93,24,26,91,False
-2026-07-24,Mumbai,Bandra,Cappuccino,70,56,50,76,False
-2026-07-24,Mumbai,Bandra,Chai Frappe,101,24,34,91,False
 2026-07-24,Mumbai,Andheri,House Latte,78,45,48,75,False
 2026-07-24,Mumbai,Andheri,Cold Brew,65,42,25,82,False
 2026-07-24,Mumbai,Andheri,Breakfast Combo,56,32,44,44,False
@@ -6810,9 +6524,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-25,Delhi,Saket,Cappuccino,109,20,15,114,False
 2026-07-25,Delhi,Saket,Chai Frappe,85,27,43,69,False
 2026-07-25,Mumbai,Bandra,House Latte,62,42,16,88,False
-2026-07-25,Mumbai,Bandra,Cold Brew,95,40,15,120,False
-2026-07-25,Mumbai,Bandra,Breakfast Combo,61,22,16,67,False
-2026-07-25,Mumbai,Bandra,Cappuccino,95,37,47,85,False
 2026-07-25,Mumbai,Bandra,Chai Frappe,60,48,39,69,False
 2026-07-25,Mumbai,Andheri,House Latte,93,53,43,103,False
 2026-07-25,Mumbai,Andheri,Cold Brew,99,49,32,116,False
@@ -6870,7 +6581,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-26,Delhi,Saket,Cappuccino,72,44,51,65,False
 2026-07-26,Delhi,Saket,Chai Frappe,83,34,49,68,False
 2026-07-26,Mumbai,Bandra,House Latte,75,44,20,99,False
-2026-07-26,Mumbai,Bandra,Cold Brew,80,37,19,98,False
 2026-07-26,Mumbai,Bandra,Breakfast Combo,56,48,22,82,False
 2026-07-26,Mumbai,Bandra,Cappuccino,50,22,16,56,False
 2026-07-26,Mumbai,Bandra,Chai Frappe,74,39,39,74,False
@@ -6931,8 +6641,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-27,Delhi,Saket,Chai Frappe,85,46,40,91,False
 2026-07-27,Mumbai,Bandra,House Latte,87,37,22,102,False
 2026-07-27,Mumbai,Bandra,Cold Brew,44,36,30,50,False
-2026-07-27,Mumbai,Bandra,Breakfast Combo,88,56,43,101,False
-2026-07-27,Mumbai,Bandra,Cappuccino,104,43,52,95,False
 2026-07-27,Mumbai,Bandra,Chai Frappe,115,26,40,101,False
 2026-07-27,Mumbai,Andheri,House Latte,80,58,38,100,False
 2026-07-27,Mumbai,Andheri,Cold Brew,41,28,20,49,False
@@ -6989,10 +6697,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-28,Delhi,Saket,Breakfast Combo,117,30,17,130,False
 2026-07-28,Delhi,Saket,Cappuccino,71,51,48,74,False
 2026-07-28,Delhi,Saket,Chai Frappe,91,52,25,118,False
-2026-07-28,Mumbai,Bandra,House Latte,110,45,20,135,False
-2026-07-28,Mumbai,Bandra,Cold Brew,50,30,17,63,False
-2026-07-28,Mumbai,Bandra,Breakfast Combo,62,59,24,97,False
-2026-07-28,Mumbai,Bandra,Cappuccino,90,59,25,124,False
 2026-07-28,Mumbai,Bandra,Chai Frappe,95,38,26,107,False
 2026-07-28,Mumbai,Andheri,House Latte,116,46,32,130,False
 2026-07-28,Mumbai,Andheri,Cold Brew,104,56,46,114,False
@@ -7049,7 +6753,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-29,Delhi,Saket,Breakfast Combo,85,40,35,90,False
 2026-07-29,Delhi,Saket,Cappuccino,89,36,30,95,False
 2026-07-29,Delhi,Saket,Chai Frappe,72,46,47,71,False
-2026-07-29,Mumbai,Bandra,House Latte,84,47,31,100,False
 2026-07-29,Mumbai,Bandra,Cold Brew,101,35,31,105,False
 2026-07-29,Mumbai,Bandra,Breakfast Combo,44,30,44,30,False
 2026-07-29,Mumbai,Bandra,Cappuccino,46,28,46,28,False
@@ -7109,11 +6812,9 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-30,Delhi,Saket,Breakfast Combo,50,33,43,40,False
 2026-07-30,Delhi,Saket,Cappuccino,84,59,23,120,False
 2026-07-30,Delhi,Saket,Chai Frappe,102,37,23,116,False
-2026-07-30,Mumbai,Bandra,House Latte,116,44,36,124,False
 2026-07-30,Mumbai,Bandra,Cold Brew,63,55,16,102,False
 2026-07-30,Mumbai,Bandra,Breakfast Combo,49,27,41,35,False
 2026-07-30,Mumbai,Bandra,Cappuccino,48,51,22,77,False
-2026-07-30,Mumbai,Bandra,Chai Frappe,94,51,50,95,False
 2026-07-30,Mumbai,Andheri,House Latte,63,22,45,40,False
 2026-07-30,Mumbai,Andheri,Cold Brew,75,57,22,110,False
 2026-07-30,Mumbai,Andheri,Breakfast Combo,85,24,34,75,False
@@ -7171,7 +6872,6 @@ date,city,store,product,opening_stock,received_stock,units_sold,closing_stock,st
 2026-07-31,Delhi,Saket,Chai Frappe,54,53,40,67,False
 2026-07-31,Mumbai,Bandra,House Latte,81,38,37,82,False
 2026-07-31,Mumbai,Bandra,Cold Brew,107,48,34,121,False
-2026-07-31,Mumbai,Bandra,Breakfast Combo,93,57,28,122,False
 2026-07-31,Mumbai,Bandra,Cappuccino,112,44,22,134,False
 2026-07-31,Mumbai,Bandra,Chai Frappe,117,47,30,134,False
 2026-07-31,Mumbai,Andheri,House Latte,57,56,47,66,False

@@ -169,80 +169,90 @@ def render(datasets, persona, location_label):
                     unsafe_allow_html=True,
                 )
             else:
-                # 1. Primary Driver Insight
-                top_name = top_driver.name if top_driver else "Transactions"
-                top_pct = f"{top_driver.contribution_pct:.0f}%" if top_driver else "58%"
-                ins1_body = (
-                    f"Transactions moved <b>{tx_kpi.movement_pct:+.1f}%</b> while average ticket shifted <b>{ticket_kpi.movement_pct:+.1f}%</b>, "
-                    f"indicating that changes in customer volume—not spend per transaction—is the primary modeled explanation for the revenue swing."
-                )
-                ins1_html = render_insight_card(
-                    1,
-                    f"{top_name} are the strongest modeled driver ({top_pct} contribution).",
-                    ins1_body,
-                )
+                if len(ctx.transactions_df) < 12000:
+                    st.markdown(
+                        f"""
+                        <div style="margin-top:12px;background:#fff1f2;border:1px solid #fecdd3;border-radius:8px;padding:12px 16px;font-size:13px;color:#9f1239;line-height:1.55;">
+                            <b style="color:#881337;">Insufficient Data:</b><br>Not enough data to reason. Available data contains {len(ctx.transactions_df):,} transactions, whereas a minimum of 12,000 transactions is required for causal analysis.
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
+                else:
+                    # 1. Primary Driver Insight
+                    top_name = top_driver.name if top_driver else "Transactions"
+                    top_pct = f"{top_driver.contribution_pct:.0f}%" if top_driver else "58%"
+                    ins1_body = (
+                        f"Transactions moved <b>{tx_kpi.movement_pct:+.1f}%</b> while average ticket shifted <b>{ticket_kpi.movement_pct:+.1f}%</b>, "
+                        f"indicating that changes in customer volume—not spend per transaction—is the primary modeled explanation for the revenue swing."
+                    )
+                    ins1_html = render_insight_card(
+                        1,
+                        f"{top_name} are the strongest modeled driver ({top_pct} contribution).",
+                        ins1_body,
+                    )
 
-                # 2. Secondary Operational Signal
-                ins2_body = (
-                    f"Average wait time moved from <b>{wt_kpi.baseline_value:.1f}</b> to <b>{wt_kpi.current_value:.1f} minutes</b> "
-                    f"(<b>{wt_kpi.movement_pct:+.1f}%</b>). Customer feedback logs and operational records also reflect higher frequency of queue friction and service delays."
-                )
-                ins2_html = render_insight_card(
-                    2,
-                    f"Wait-time deterioration is a key operational signal.",
-                    ins2_body,
-                )
+                    # 2. Secondary Operational Signal
+                    ins2_body = (
+                        f"Average wait time moved from <b>{wt_kpi.baseline_value:.1f}</b> to <b>{wt_kpi.current_value:.1f} minutes</b> "
+                        f"(<b>{wt_kpi.movement_pct:+.1f}%</b>). Customer feedback logs and operational records also reflect higher frequency of queue friction and service delays."
+                    )
+                    ins2_html = render_insight_card(
+                        2,
+                        f"Wait-time deterioration is a key operational signal.",
+                        ins2_body,
+                    )
 
-                # 3. Pricing / Mix Insight
-                ins3_body = (
-                    f"Average ticket moved <b>{ticket_kpi.movement_pct:+.1f}%</b> (current: ₹{ticket_kpi.current_value:.1f}), "
-                    f"suggesting pricing stability and premium item mix helped partially buffer total revenue despite transaction volume decline."
-                )
-                ins3_html = render_insight_card(
-                    3,
-                    f"Pricing and product mix provided a partial offset.",
-                    ins3_body,
-                )
+                    # 3. Pricing / Mix Insight
+                    ins3_body = (
+                        f"Average ticket moved <b>{ticket_kpi.movement_pct:+.1f}%</b> (current: ₹{ticket_kpi.current_value:.1f}), "
+                        f"suggesting pricing stability and premium item mix helped partially buffer total revenue despite transaction volume decline."
+                    )
+                    ins3_html = render_insight_card(
+                        3,
+                        f"Pricing and product mix provided a partial offset.",
+                        ins3_body,
+                    )
 
-                def format_evidence(idx, res_list):
-                    if idx >= len(res_list): return ""
-                    c = res_list[idx]["chunk"]
-                    return textwrap.dedent(f"""
-<div style="margin: 0 0 12px 24px; padding: 12px 16px; background: #f8fafc; border-left: 3px solid #38bdf8; border-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
-        <div style="font-size:13px; font-weight:750; color:#0f172a;">Evidence: {c['subject']}</div>
-        <span class="bi-badge bi-badge-watch" style="font-size:10px;">{c['source_type']}</span>
+                    def format_evidence(idx, res_list):
+                        if idx >= len(res_list): return ""
+                        c = res_list[idx]["chunk"]
+                        return textwrap.dedent(f"""
+    <div style="margin: 0 0 12px 24px; padding: 12px 16px; background: #f8fafc; border-left: 3px solid #38bdf8; border-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+            <div style="font-size:13px; font-weight:750; color:#0f172a;">Evidence: {c['subject']}</div>
+            <span class="bi-badge bi-badge-watch" style="font-size:10px;">{c['source_type']}</span>
+        </div>
+        <div style="font-size:12.5px; color:#334155; line-height:1.5; font-style:italic;">
+            "{c['text']}"
+        </div>
+        <div style="font-size:11px; color:#64748b; margin-top:6px;">
+            Location: <b>{c['city']}/{c['store']}</b> • Date: {c['date']}
+        </div>
     </div>
-    <div style="font-size:12.5px; color:#334155; line-height:1.5; font-style:italic;">
-        "{c['text']}"
-    </div>
-    <div style="font-size:11px; color:#64748b; margin-top:6px;">
-        Location: <b>{c['city']}/{c['store']}</b> • Date: {c['date']}
-    </div>
-</div>
-""").strip()
+    """).strip()
 
-                ev1 = format_evidence(0, results)
-                ev2 = format_evidence(1, results)
-                ev3 = format_evidence(2, results)
+                    ev1 = format_evidence(0, results)
+                    ev2 = format_evidence(1, results)
+                    ev3 = format_evidence(2, results)
 
-                html_block = (
-                    ins1_html + "\n" + ev1 + "\n<div style='height:8px;'></div>\n" +
-                    ins2_html + "\n" + ev2 + "\n<div style='height:8px;'></div>\n" +
-                    ins3_html + "\n" + ev3
-                )
-                st.markdown(html_block, unsafe_allow_html=True)
+                    html_block = (
+                        ins1_html + "\n" + ev1 + "\n<div style='height:8px;'></div>\n" +
+                        ins2_html + "\n" + ev2 + "\n<div style='height:8px;'></div>\n" +
+                        ins3_html + "\n" + ev3
+                    )
+                    st.markdown(html_block, unsafe_allow_html=True)
 
-            if not contradictory_evidence and llm_result.get("text"):
-                synth_text = llm_result["text"].replace("\n\n", "<br><br>").replace("**", "")
-                st.markdown(
-                    f"""
-                    <div style="margin-top:12px;background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:12px 16px;font-size:13px;color:#0369a1;line-height:1.55;">
-                        <b style="color:#0c4a6e;">Strategic Takeaway:</b><br>{synth_text}
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                    if llm_result.get("text"):
+                        synth_text = llm_result["text"].replace("\n\n", "<br><br>").replace("**", "")
+                        st.markdown(
+                            f"""
+                            <div style="margin-top:12px;background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:12px 16px;font-size:13px;color:#0369a1;line-height:1.55;">
+                                <b style="color:#0c4a6e;">Strategic Takeaway:</b><br>{synth_text}
+                            </div>
+                            """,
+                            unsafe_allow_html=True,
+                        )
 
     with why_col2:
         with st.container(border=True):

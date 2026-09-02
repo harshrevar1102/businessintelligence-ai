@@ -43,51 +43,61 @@ def render(datasets, persona, location_label):
             st.markdown(info_html, unsafe_allow_html=True)
 
             if driver.evidence_query:
-                t0 = time.time()
-                results, backend = retrieve_evidence(
-                    ctx.documents_df,
-                    ctx.feedback_df,
-                    driver.evidence_query,
-                    persona,
-                    ctx.city,
-                    ctx.store,
-                )
-                latency = time.time() - t0
-                contradictory = detect_contradiction(results)
-
-                log_event(
-                    analysis_label=f"Driver evidence - {driver.name}",
-                    persona=persona,
-                    location=location_label,
-                    kpi="Revenue",
-                    method=driver.method,
-                    retrieval_count=len(results),
-                    latency_seconds=latency,
-                    retrieval_latency_seconds=latency,
-                )
-
-                if contradictory:
+                if len(ctx.transactions_df) < 12000:
                     st.markdown(
-                        textwrap.dedent("""
-<div class="bi-alert bi-alert-critical" style="margin: 8px 0;">
-<div class="bi-alert-icon">⚠️</div>
-<div class="bi-alert-body">Contradictory evidence found for this driver — treat attribution as provisional.</div>
-</div>
-""").strip(),
+                        f"""
+                        <div style="margin-top:12px;background:#fff1f2;border:1px solid #fecdd3;border-radius:8px;padding:12px 16px;font-size:13px;color:#9f1239;line-height:1.55;">
+                            <b style="color:#881337;">Insufficient Data:</b><br>Not enough data to pull reliable citations and evidence. Available data contains {len(ctx.transactions_df):,} transactions, whereas a minimum of 12,000 transactions is required for causal analysis.
+                        </div>
+                        """,
                         unsafe_allow_html=True,
                     )
+                else:
+                    t0 = time.time()
+                    results, backend = retrieve_evidence(
+                        ctx.documents_df,
+                        ctx.feedback_df,
+                        driver.evidence_query,
+                        persona,
+                        ctx.city,
+                        ctx.store,
+                    )
+                    latency = time.time() - t0
+                    contradictory = detect_contradiction(results)
 
-                st.markdown("<div style='font-size:12.5px;font-weight:700;color:#0f172a;margin-top:6px;'>Corroborating Evidence:</div>", unsafe_allow_html=True)
-                for r in results:
-                    c = r["chunk"]
-                    ev_html = textwrap.dedent(f"""
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 12px;margin:6px 0;">
-<div style="font-weight:700;font-size:13px;color:#0f172a;">{c['subject']} <span class="bi-badge bi-badge-watch">{c['source_type']}</span></div>
-<div style="font-size:12px;color:#475569;margin:2px 0 4px;">{c['city']}/{c['store']} • {c['date']} • Score: {r['score']:.2f}</div>
-<div style="font-size:13px;color:#334155;font-weight:500;">{c['text']}</div>
-</div>
-""").strip()
-                    st.markdown(ev_html, unsafe_allow_html=True)
+                    log_event(
+                        analysis_label=f"Driver evidence - {driver.name}",
+                        persona=persona,
+                        location=location_label,
+                        kpi="Revenue",
+                        method=driver.method,
+                        retrieval_count=len(results),
+                        latency_seconds=latency,
+                        retrieval_latency_seconds=latency,
+                    )
+
+                    if contradictory:
+                        st.markdown(
+                            textwrap.dedent("""
+    <div class="bi-alert bi-alert-critical" style="margin: 8px 0;">
+    <div class="bi-alert-icon">⚠️</div>
+    <div class="bi-alert-body">Contradictory evidence found for this driver — treat attribution as provisional.</div>
+    </div>
+    """).strip(),
+                            unsafe_allow_html=True,
+                        )
+
+                    st.markdown("<div style='font-size:12.5px;font-weight:700;color:#0f172a;margin-top:6px;'>Corroborating Evidence:</div>", unsafe_allow_html=True)
+                    for r in results:
+                        c = r["chunk"]
+                        ev_html = textwrap.dedent(f"""
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 12px;margin:6px 0;">
+    <div style="font-weight:700;font-size:13px;color:#0f172a;">{c['subject']} <span class="bi-badge bi-badge-watch">{c['source_type']}</span></div>
+    <div style="font-size:12px;color:#475569;margin:2px 0 4px;">{c['city']}/{c['store']} • {c['date']} • Score: {r['score']:.2f}</div>
+    <div style="font-size:13px;color:#334155;font-weight:500;">{c['text']}</div>
+    </div>
+    """).strip()
+                        st.markdown(ev_html, unsafe_allow_html=True)
             else:
                 st.markdown("<div style='font-size:12px;color:#475569;'>No linked evidence query for this driver.</div>", unsafe_allow_html=True)
 

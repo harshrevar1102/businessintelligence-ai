@@ -9,7 +9,6 @@ FB000007,2026-07-02,Delhi,Connaught Place,Disappointed that Cold Brew was unavai
 FB000008,2026-07-02,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000009,2026-07-02,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000010,2026-07-02,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
-FB000011,2026-07-02,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000012,2026-07-02,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000013,2026-07-02,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000014,2026-07-02,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -32,8 +31,6 @@ FB000030,2026-07-03,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order 
 FB000031,2026-07-03,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000032,2026-07-03,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000033,2026-07-03,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
-FB000034,2026-07-03,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
-FB000035,2026-07-03,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
 FB000036,2026-07-03,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000037,2026-07-03,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000038,2026-07-03,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -84,7 +81,6 @@ FB000082,2026-07-05,Jaipur,Malviya Nagar,"Store felt about as busy as usual, not
 FB000083,2026-07-05,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
 FB000084,2026-07-05,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000085,2026-07-05,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
-FB000086,2026-07-05,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000087,2026-07-05,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000088,2026-07-05,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
 FB000089,2026-07-05,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
@@ -106,8 +102,6 @@ FB000104,2026-07-06,Delhi,Connaught Place,Disappointed that Cold Brew was unavai
 FB000105,2026-07-06,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000106,2026-07-06,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000107,2026-07-06,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
-FB000108,2026-07-06,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
-FB000109,2026-07-06,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000110,2026-07-06,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000111,2026-07-06,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
 FB000112,2026-07-06,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -155,7 +149,6 @@ FB000153,2026-07-08,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5
 FB000154,2026-07-08,Delhi,Saket,Great service and friendly staff as usual.,5,positive
 FB000155,2026-07-08,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000156,2026-07-08,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
-FB000157,2026-07-08,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000158,2026-07-08,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000159,2026-07-08,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000160,2026-07-08,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
@@ -198,7 +191,6 @@ FB000196,2026-07-10,Jaipur,Malviya Nagar,"Store felt about as busy as usual, not
 FB000197,2026-07-10,Delhi,Connaught Place,Great service and friendly staff as usual.,5,positive
 FB000198,2026-07-10,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000199,2026-07-10,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
-FB000200,2026-07-10,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000201,2026-07-10,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000202,2026-07-10,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
 FB000203,2026-07-10,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -223,7 +215,6 @@ FB000221,2026-07-11,Jaipur,Malviya Nagar,"Loved the new Chai Frappe, will order 
 FB000222,2026-07-11,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000223,2026-07-11,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000224,2026-07-11,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
-FB000225,2026-07-11,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000226,2026-07-11,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000227,2026-07-11,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000228,2026-07-11,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -246,7 +237,6 @@ FB000244,2026-07-12,Delhi,Connaught Place,Wanted Cold Brew but they were out of 
 FB000245,2026-07-12,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000246,2026-07-12,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000247,2026-07-12,Delhi,Saket,Great service and friendly staff as usual.,5,positive
-FB000248,2026-07-12,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000249,2026-07-12,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000250,2026-07-12,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000251,2026-07-12,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -269,8 +259,6 @@ FB000267,2026-07-13,Delhi,Connaught Place,"Quick visit, no real wait, same as al
 FB000268,2026-07-13,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000269,2026-07-13,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000270,2026-07-13,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
-FB000271,2026-07-13,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
-FB000272,2026-07-13,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000273,2026-07-13,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000274,2026-07-13,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000275,2026-07-13,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -296,7 +284,6 @@ FB000294,2026-07-14,Delhi,Connaught Place,Great service and friendly staff as us
 FB000295,2026-07-14,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000296,2026-07-14,Delhi,Saket,Great service and friendly staff as usual.,5,positive
 FB000297,2026-07-14,Delhi,Saket,Great service and friendly staff as usual.,5,positive
-FB000298,2026-07-14,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000299,2026-07-14,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
 FB000300,2026-07-14,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000301,2026-07-14,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -322,8 +309,6 @@ FB000320,2026-07-15,Delhi,Connaught Place,"Loved the new Chai Frappe, will order
 FB000321,2026-07-15,Delhi,Connaught Place,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000322,2026-07-15,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000323,2026-07-15,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
-FB000324,2026-07-15,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
-FB000325,2026-07-15,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000326,2026-07-15,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000327,2026-07-15,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000328,2026-07-15,Bengaluru,Indiranagar,"Service felt understaffed, long wait for a simple coffee.",2,wait
@@ -396,7 +381,6 @@ FB000394,2026-07-18,Jaipur,Malviya Nagar,"Quick visit, no real wait, same as alw
 FB000395,2026-07-18,Delhi,Connaught Place,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000396,2026-07-18,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000397,2026-07-18,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
-FB000398,2026-07-18,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
 FB000399,2026-07-18,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000400,2026-07-18,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000401,2026-07-18,Mumbai,Andheri,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -422,7 +406,6 @@ FB000420,2026-07-19,Delhi,Connaught Place,"Quick visit, no real wait, same as al
 FB000421,2026-07-19,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000422,2026-07-19,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000423,2026-07-19,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
-FB000424,2026-07-19,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
 FB000425,2026-07-19,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000426,2026-07-19,Mumbai,Andheri,Queue was really slow during the evening rush.,2,wait
 FB000427,2026-07-19,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -446,8 +429,6 @@ FB000444,2026-07-20,Delhi,Connaught Place,Disappointed that Cold Brew was unavai
 FB000445,2026-07-20,Delhi,Connaught Place,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000446,2026-07-20,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000447,2026-07-20,Delhi,Saket,Great service and friendly staff as usual.,5,positive
-FB000448,2026-07-20,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
-FB000449,2026-07-20,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
 FB000450,2026-07-20,Mumbai,Andheri,"Service felt understaffed, long wait for a simple coffee.",2,wait
 FB000451,2026-07-20,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000452,2026-07-20,Bengaluru,Koramangala,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -466,8 +447,6 @@ FB000464,2026-07-21,Delhi,Connaught Place,Wanted Cold Brew but they were out of 
 FB000465,2026-07-21,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
 FB000466,2026-07-21,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
 FB000467,2026-07-21,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
-FB000468,2026-07-21,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
-FB000469,2026-07-21,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000470,2026-07-21,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000471,2026-07-21,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000472,2026-07-21,Bengaluru,Indiranagar,Great service and friendly staff as usual.,5,positive
@@ -486,7 +465,6 @@ FB000484,2026-07-22,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5
 FB000485,2026-07-22,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000486,2026-07-22,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000487,2026-07-22,Mumbai,Bandra,Great service and friendly staff as usual.,5,positive
-FB000488,2026-07-22,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000489,2026-07-22,Mumbai,Andheri,Great service and friendly staff as usual.,5,positive
 FB000490,2026-07-22,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
 FB000491,2026-07-22,Bengaluru,Indiranagar,Waited far too long to get my order today.,2,wait
@@ -531,7 +509,6 @@ FB000529,2026-07-24,Delhi,Connaught Place,"Store felt about as busy as usual, no
 FB000530,2026-07-24,Delhi,Connaught Place,"Loved the new Chai Frappe, will order again.",5,positive
 FB000531,2026-07-24,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000532,2026-07-24,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
-FB000533,2026-07-24,Mumbai,Bandra,Waited far too long to get my order today.,2,wait
 FB000534,2026-07-24,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
 FB000535,2026-07-24,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
 FB000536,2026-07-24,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -602,7 +579,6 @@ FB000600,2026-07-27,Jaipur,Malviya Nagar,"Service felt understaffed, long wait f
 FB000601,2026-07-27,Delhi,Connaught Place,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000602,2026-07-27,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
 FB000603,2026-07-27,Delhi,Saket,Great service and friendly staff as usual.,5,positive
-FB000604,2026-07-27,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
 FB000605,2026-07-27,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000606,2026-07-27,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000607,2026-07-27,Bengaluru,Indiranagar,"Quick visit, no real wait, same as always.",4,normal_traffic
@@ -625,7 +601,6 @@ FB000623,2026-07-28,Delhi,Connaught Place,"Quick visit, no real wait, same as al
 FB000624,2026-07-28,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000625,2026-07-28,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,stockout
 FB000626,2026-07-28,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
-FB000627,2026-07-28,Mumbai,Bandra,"Service felt understaffed, long wait for a simple coffee.",2,wait
 FB000628,2026-07-28,Mumbai,Andheri,Waited far too long to get my order today.,2,wait
 FB000629,2026-07-28,Bengaluru,Indiranagar,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000630,2026-07-28,Bengaluru,Koramangala,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
@@ -650,7 +625,6 @@ FB000648,2026-07-29,Delhi,Connaught Place,"Loved the new Chai Frappe, will order
 FB000649,2026-07-29,Delhi,Saket,Great service and friendly staff as usual.,5,positive
 FB000650,2026-07-29,Delhi,Saket,"Quick visit, no real wait, same as always.",4,normal_traffic
 FB000651,2026-07-29,Delhi,Saket,Wanted Cold Brew but they were out of it again.,2,stockout
-FB000652,2026-07-29,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000653,2026-07-29,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000654,2026-07-29,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000655,2026-07-29,Bengaluru,Indiranagar,"Loved the new Chai Frappe, will order again.",5,positive
@@ -703,7 +677,6 @@ FB000701,2026-07-31,Delhi,Saket,Disappointed that Cold Brew was unavailable.,2,s
 FB000702,2026-07-31,Delhi,Saket,"Loved the new Chai Frappe, will order again.",5,positive
 FB000703,2026-07-31,Delhi,Saket,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
 FB000704,2026-07-31,Mumbai,Bandra,"Loved the new Chai Frappe, will order again.",5,positive
-FB000705,2026-07-31,Mumbai,Bandra,Queue was really slow during the evening rush.,2,wait
 FB000706,2026-07-31,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000707,2026-07-31,Mumbai,Andheri,"Loved the new Chai Frappe, will order again.",5,positive
 FB000708,2026-07-31,Mumbai,Andheri,"Store felt about as busy as usual, nothing unusual.",4,normal_traffic
